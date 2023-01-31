@@ -1,5 +1,7 @@
 # Community Builds
 
+First iteration to make community builds possible. 
+
 ## TODO
 
 Proper json schema put in place, so we have editor support and autocomplete.
