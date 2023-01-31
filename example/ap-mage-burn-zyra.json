@@ -1,0 +1,126 @@
+{
+  "champion": "Zyra",
+  "sanitizedName": "zyra",
+  "buildId": 1,
+  "icon": "zyra.jpg",
+  "name": "AP",
+  "info": {
+    "description": "AP Mage Zyra build. Everything will burn. With DOTs.",
+    "tags": [
+      "Mage",
+      "AP",
+      "Poke",
+      "CC",
+      "Push",
+      "Zoning",
+      "Catch",
+      "Meta"
+    ]
+  },
+  "summonerSpells": [
+    "Ghost",
+    "Flash"
+  ],
+  "quickSkillOrder": "qew",
+  "runes": {
+    "major": {
+      "configuration": [
+        "Dark Harvest",
+        "Cheap Shot",
+        "Eyeball Collection",
+        "Ultimate Hunter"
+      ],
+      "tree": "Domination"
+    },
+    "minor": {
+      "configuration": [
+        "Presence of Mind",
+        "Coup de Grace"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "haste",
+        "adaptive",
+        "hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Lost Chapter"
+      ]
+    },
+    {
+      "description": "Rush this",
+      "items": [
+        "Liandry's Anguish"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Sorcerer's Shoes",
+        "Ionian Boots of Lucidity"
+      ]
+    },
+    {
+      "description": "For mana problems",
+      "items": [
+        "Tear of the Goddess",
+        "Seraph's Embrace"
+      ]
+    },
+    {
+      "description": "Good items",
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Demonic Embrace",
+        "Void Staff",
+        "Shadowflame",
+        "Horizon Focus",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Zhonya's Hourglass",
+        "Banshee's Veil",
+        "Morellonomicon"
+      ]
+    },
+    {
+      "description": "Against super heavy AP",
+      "items": [
+        "Mercury's Treads",
+        "Zhonya's Hourglass",
+        "Banshee's Veil",
+        "Crown of the Shattered Queen"
+      ]
+    },
+    {
+      "description": "Against super heavy AD or Assassins",
+      "items": [
+        "Plated Steelcaps",
+        "Zhonya's Hourglass",
+        "Crown of the Shattered Queen"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Sorcerer's Shoes",
+        "Liandry's Anguish",
+        "Demonic Embrace",
+        "Rylai's Crystal Scepter",
+        "Void Staff",
+        "Rabadon's Deathcap"
+      ]
+    }
+  ]
+}
