@@ -1,6 +1,6 @@
 # Community Builds
 
-First iteration to make community builds possible. 
+Community League of Legends ARAM buids repository for [ARAMonly.com](https://www.aramonly.com). 
 
 ## TODO
 
