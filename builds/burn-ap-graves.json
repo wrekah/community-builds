@@ -1,0 +1,95 @@
+{
+    "champion": "Graves",
+    "sanitizedName": "graves",
+    "buildId": 1,
+    "icon": "graves.jpg",
+    "name": "AP Burn",
+    "info": {
+      "description": "AP burn Graves build.",
+      "tags": [
+        "AP",
+        "Poke", 
+        "Fun"
+      ]
+    },
+    "summonerSpells": [
+      "ignite",
+      "flash"
+    ],
+    "quickSkillOrder": "wqe",
+    "runes": {
+      "major": {
+        "configuration": [
+          "Dark Harvest",
+          "Sudden Impact",
+          "Eyeball Collection",
+          "Ultimate Hunter"
+        ],
+        "tree": "Domination"
+      },
+      "minor": {
+        "configuration": [
+          "Transcendence",
+          "Scorch"
+        ],
+        "tree": "Sorcery"
+      },
+      "passive": {
+        "configuration": [
+          "haste",
+          "adaptive",
+          "hp"
+        ],
+        "tree": "Passive"
+      }
+    },
+    "itemSets": [
+      {
+        "description": "Starting items",
+        "items": [
+          "Bandleglass Mirror",
+          "Amplifying Tome"
+        ]
+      },
+      {
+        "description": "Rush this in this order",
+        "items": [
+          "Imperial Mandate",
+          "Liandry's Anguish",
+          "Demonic Embrace"
+        ]
+      },
+      {
+        "description": "Boots",
+        "items": [
+          "Ionian Boots of Lucidity"
+        ]
+      },
+      {
+        "description": "Good items",
+        "items": [
+          "Horizon Focus",
+          "Shadowflame"
+        ]
+      },
+      {
+        "description": "Situational items",
+        "items": [
+          "Lord Dominik's Regards",
+          "Serpent's Fang",
+          "Morellonomicon"
+        ]
+      },
+      {
+        "description": "Example final build",
+        "items": [
+          "Ionian Boots of Lucidity",
+          "Imperial Mandate",
+          "Liandry's Anguish",
+          "Demonic Embrace",
+          "Horizon Focus",
+          "Void Staff"
+        ]
+      }
+    ]
+  }
