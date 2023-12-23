@@ -1,0 +1,131 @@
+{
+  "champion": "Vi",
+  "sanitizedName": "vi",
+  "name": "Shield Tank",
+  "buildType": "tank",
+  "buildCategory": "fun",
+  "info": {
+    "description": "Not enough HP? Just double it with the all shields you are getting!",
+    "tags": [
+      "Tank",
+      "Meta"
+    ],
+    "how to play": [
+      "The idea of the build is centered around shielding.",
+      "The shield you get from Passive scales with HP, so Heartsteel, Grasp and Overgrowth runes give it a big buff. Combine this with shields you get from Sterak's and Fimbulwinter plus the shield boost from Spirit Visage and you basically double your HP with the shields you get!",
+      "Remember to watch cooldown of your passive! In the early game, wait for it to be up, before going in. Late game, remember that triggering W reduces your Passive cooldown. It means that sometimes you will survive longer by fighting (and triggering Passive more often), rather than running!",
+      "Adapt to enemy team. Buy items that counter them. They heavy AP? Stack MR. They heavy AD? Stack Armor. Your team does not have damage? Buy recommended items for bruiser or for pure damage!",
+      "Do not be shy and do not wait for 'special moment'. You have great engaging and catching tools - Q and R!",
+      "Enemy team heavy on AP? Buy MR. They heavy on AD? Buy Armor. You need some damage? Well buy that.",
+      "Remember to consume your Heartsteel procs!",
+      "Remember to consume your Grasp of the Undying procs!"
+    ],
+    "credit": "OverdriverJC @EUNE"
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "qew",
+  "runes": {
+    "major": {
+      "configuration": [
+        "grasp",
+        "shield",
+        "second",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "ingenious",
+        "cheap"
+      ],
+      "tree": "Domination"
+    },
+    "passive": {
+      "configuration": [
+        "as",
+        "armor",
+        "mr"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Guardian's Horn",
+        "Tear of the Goddess"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Mercury's Treads",
+        "Plated Steelcaps",
+        "Ionian Boots of Lucidity"
+      ]
+    },
+    {
+      "description": "Rush this",
+      "items": [
+        "Heartsteel"
+      ]
+    },
+    {
+      "description": "Good tanky items",
+      "items": [
+        "Warmog's Armor",
+        "Fimbulwinter",
+        "Gargoyle Stoneplate"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Spirit Visage",
+        "Abyssal Mask",
+        "Force of Nature",
+        "Turbo Chemtank"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Sunfire Aegis",
+        "Thornmail",
+        "Frozen Heart",
+        "Randuin's Omen",
+        "Dead Man's Plate"
+      ]
+    },
+    {
+      "description": "Situational - going bruiser",
+      "items": [
+        "Titanic Hydra",
+        "Death's Dance"
+      ]
+    },
+    {
+      "description": "Situational - for more dmg",
+      "items": [
+        "Ravenous Hydra",
+        "Blade of The Ruined King"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Mercury's Treads",
+        "Heartsteel",
+        "Fimbulwinter",
+        "Sterak's Gage",
+        "Spirit Visage",
+        "Sunfire Aegis"
+      ]
+    }
+  ]
+}
