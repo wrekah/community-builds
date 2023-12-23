@@ -1,0 +1,119 @@
+{
+  "id": "ap-mage-burn",
+  "champion": "Graves",
+  "sanitizedName": "graves",
+  "name": "AP Burn",
+  "buildType": "ap",
+  "buildCategory": "fun",
+  "info": {
+    "description": "AP burn Graves build.",
+    "how to play": [
+      "This is the burn version of AP Graves.",
+      "Playstyle is to spam W and R off cooldown and apply the burn effects from Liandry's and Demonic Embrace",
+      "Imperial Mandate will proc from your Smoke Screen (W) even after it dealt initial damage.",
+      "You can also spam Q, but for this you probably need some mana items (Muramana)."
+    ],
+    "credit": "LuckierLion"
+  },
+  "summonerSpells": [
+    "ignite",
+    "flash"
+  ],
+  "quickSkillOrder": "wqe",
+  "runes": {
+    "major": {
+      "configuration": [
+        "dark",
+        "sudden",
+        "eyeball",
+        "ultimate"
+      ],
+      "tree": "Domination"
+    },
+    "minor": {
+      "configuration": [
+        "transcendence",
+        "scorch"
+      ],
+      "tree": "Sorcery"
+    },
+    "passive": {
+      "configuration": [
+        "haste",
+        "adaptive",
+        "hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Bandleglass Mirror",
+        "Amplifying Tome"
+      ]
+    },
+    {
+      "description": "Rush this in this order",
+      "items": [
+        "Imperial Mandate",
+        "Liandry's Anguish",
+        "Demonic Embrace"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Ionian Boots of Lucidity"
+      ]
+    },
+    {
+      "description": "Good items",
+      "items": [
+        "Horizon Focus",
+        "Shadowflame"
+      ]
+    },
+    {
+      "description": "For mana problems",
+      "items": [
+        "Tear of the Goddess",
+        "Muramana"
+      ]
+    },
+    {
+      "description": "Situational autoattacking",
+      "items": [
+        "Lich Bane"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Lord Dominik's Regards",
+        "Serpent's Fang",
+        "Morellonomicon"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "items": [
+        "Elixir of Sorcery",
+        "Elixir of Iron",
+        "Stopwatch"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Ionian Boots of Lucidity",
+        "Imperial Mandate",
+        "Liandry's Anguish",
+        "Demonic Embrace",
+        "Horizon Focus",
+        "Void Staff"
+      ]
+    }
+  ]
+}
