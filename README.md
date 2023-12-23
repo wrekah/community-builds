@@ -1,10 +1,14 @@
 # Community Builds
 
-Community League of Legends ARAM buids repository for [ARAMonly.com](https://www.aramonly.com). 
+Community League of Legends ARAM builds repository for [aramonly.com](https://www.aramonly.com). 
 
-## TODO
+## JSON Schema
 
-Proper json schema put in place, so we have editor support and autocomplete.
+To make it easier for anyone to prepare new builds, JSON schema has been added. Please import it in your IDE to use it.
+
+### Note
+
+Schema was changed some time ago (Tags field is removed — for example). Please use build-schema.json.
 
 ## Schema explained
 
@@ -12,7 +16,7 @@ Proper json schema put in place, so we have editor support and autocomplete.
 
 #### Quick Skill Order
 
-As easy, as defining string with order like this
+As easy as defining a string with order like this
 
 ```json
   "quickSkillOrder": "qew"
@@ -53,10 +57,12 @@ If you want to be really specific about skill order, you can do it with this
   }
 
 ```
+
 ### Runes
 
-Runes use full fledged name.
+There's autocomplete support for runes (thanks to JSON schema). It takes sanitized Rune names. Validation is done outside of schema.
+
 ### Items
 
-itemSets is just array of item recommendations (u can add as many as you want). Inside, you use full fledged names. 
+There's autocomplete support for items (thanks to JSON schema). ItemSets is just an array of item recommendations (u can add as many as you want). Inside, you use full-fledged names. 
 
