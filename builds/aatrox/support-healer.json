@@ -1,0 +1,198 @@
+{
+  "id": "support-healer",
+  "champion": "Aatrox",
+  "sanitizedName": "aatrox",
+  "name": "Support",
+  "buildType": "support",
+  "buildCategory": "fun",
+  "difficultyRating": "easy",
+  "info": {
+    "description": "Aatrox Support build for ARAM. With Redemption, Locket and Moonstone. You are a healer, Harry.",
+    "how it works": [
+      "You're a healer, Harry.",
+      "Even though Aatrox is not typical support, you are gonna support your team very effectively. With heals, shields and buffs:",
+      "<NESTED>",
+      "<b>Heal</b> summoner spell.",
+      "<b>Guardian</b> and <b>Font of Life</b> runes.",
+      "<b>Redemption</b>, <b>Locket of the Iron Solari</b> and <b>Moonstone Renewer</b> and other items.",
+      "</NESTED>"
+    ],
+    "how to play": [
+      "Your first rush is <b>Redemption</b>.",
+      "Your second rush can be <b>Locket of the Iron Solari</b> (vs AoE), <b>Moonstone Renewer</b> (sustain).",
+      "Also, <b>Echoes of Helia</b> is pretty good because you can proc it consistently with <b>Font of Life</b> (slow/cc).",
+      "Rush second Locket if your team already doing teamfights or when an enemy team has champions with super aoe damage (example: like Fiddle's ult). Otherwise, get <b>Moonstone Renewer</b> #2. The third item should be whatever you did not buy - <b>Locket of the Iron Solari</b> or <b>Moonstone Renewer</b>. That's your core.",
+      "Another decent item if you have carry/strong bruiser/strong tank is <b>Knight's Vow</b>.",
+      "Try to use summoner spell <b>Heal</b> on cooldown. With <b>Moonstone Renewer</b>, ideally there should be at least two people for maximum healing effect.",
+      "Later in the game, for maximum support - you can sell boots for sixth item.",
+      "You can get items like <b>Ardent Censer</b> (some auto attackers needed) or <b>Staff of Flowing Water</b>. It will be triggered often enough that it will be worth.",
+      "Interesting item is <b>Cryptbloom</b>. If you want to go full healing, you can get it like #4+ item.",
+      "xxx Runes",
+      "With <b>Cosmic Insight</b> rune from Inspiration tree:",
+      "<NESTED>",
+      "<b>Redemption</b> and Locked of the Iron Solari has 81.92 sec cooldown (down from 90 sec).",
+      "<b>Shurelya's Battlesong</b> has 68.12 sec cooldown (down from 75 sec).",
+      "</NESTED>",
+      "<b>Guardian</b> is important rune. It is going to provide tons of shielding. Remember that you need to be close to your allies to proc it.",
+      "<NESTED>",
+      "You can also manipulate it - for example, you can stick to one ally, or avoid some spells that's gonna only waste it.",
+      "</NESTED>",
+      "You will be triggering <b>Font of Life</b> effect, which will heal your allies. It also chains off <b>Moonstone Renewer</b>!",
+      "<b>Font of Life</b> total healing is not properly calculated in a post-game lobby. Value is bigger in the game vs. what's displayed in statistics. You heal more!",
+      "Another important rule is <b>Cosmic Insight</b>, it reduces cooldown for your active items (so more heals/shielding) and <b>Heal</b> summoner spell.",
+      "xxx <b>Redemption</b>",
+      "Try to use <b>Redemption</b> on cooldown, when your allies are missing some health. It is best to use when they are grouped. Especially if you already have <b>Moonstone Renewer</b>, it is best to wait (or ping) until they group together, so you can have them all healed.",
+      "Remember that you can use <b>Redemption</b> for the damage. However, in general, it is not worth it. Keep it to heal your team!",
+      "Be careful when using <b>Redemption</b> while you are dead, and you are about to be respawned. The camera will go to your position, and you can cast it in the spawning pool by mistake. Watch out for bad timing!"
+    ],
+    "how to play champion": [
+      "Even as a Support, you can initiate great fights with your <b>The Darkin Blade (Q)</b> or sometimes even with <b>Infernal Chains (W)</b>. Look for opportunities.",
+      "You can be a fantastic peeler.",
+      "<NESTED>",
+      "Enemies going after your carry? Stay close to your buddy and knock intruders up with your <b>The Darkin Blade (Q)</b>.",
+      "Slow and pull from <b>Infernal Chains (W)</b> can also help.",
+      "</NESTED>"
+    ],
+    "tricks champion": [
+      "<b>Q</b> + <b>Flash</b> combos: You can use <b>Flash</b> during any time of <b>The Darkin Blade (Q)</b> animations. You can even combine that with <b>Umbral Dash (E)</b>. You can <b>Flash</b> and <b>Umbral Dash (E)</b> in any direction, making very spectacular and flashy plays.",
+      "You can use <b>Umbral Dash (E)</b> for short dash, this way animation lasts shorter, and you can get crucial milliseconds to auto attack faster (can be deciding a factor in 1v1).",
+      "You can reset your auto attack timer with <b>Umbral Dash (E)</b>. It might be crucial in duels, or when pushing enemy turrets."
+    ],
+    "tricks champion riot": [
+      "Use Umbral Dash while casting The Darkin Blade to increase your chances of hitting the enemy.",
+      "Crowd Control abilities like Infernal Chains or your allies' immobilizing effects will help you set up The Darkin Blade.",
+      "Cast World Ender when you are sure you can force a fight."
+    ]
+  },
+  "summonerSpells": [
+    "heal",
+    "flash"
+  ],
+  "quickSkillOrder": "qew",
+  "runes": {
+    "major": {
+      "configuration": [
+        "guardian",
+        "font",
+        "second",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "cash",
+        "cosmic"
+      ],
+      "tree": "Inspiration"
+    },
+    "passive": {
+      "configuration": [
+        "haste",
+        "scaling_hp",
+        "scaling_hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Kindlegem",
+        "Glowing Mote"
+      ]
+    },
+    {
+      "description": "Rush this #1",
+      "items": [
+        "Redemption"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Ionian Boots of Lucidity"
+      ]
+    },
+    {
+      "description": "Core items",
+      "tooltip": [
+        "<b>Moonstone Renewer</b> - core item, should be #2 or #3 item.",
+        "<b>Echoes of Helia</b> - kind of good item now",
+        "<b>Locket of the Iron Solari</b> - solid buy, can be bought as #3 or #4, especially effective vs AOE comps.",
+        "<b>Cryptbloom</b> - universal item for more healing. Can be bought as #3 or #4."
+      ],
+      "items": [
+        "Cryptbloom",
+        "Echoes of Helia",
+        "Moonstone Renewer",
+        "Locket of the Iron Solari"
+      ]
+    },
+    {
+      "description": "Good support items",
+      "tooltip": [
+        "<b>Ardent Censer</b> - buy it if you have auto attackers in your team.",
+        "<b>Staff of Flowing Water</b> - buy it if you have lots of AP on your team.",
+        "<b>Shurelya's Battlesong</b> - universal item, for engaging or for running away.",
+        "<b>Knight's Vow</b> - you have strong bruiser/tank/carry + if you can stay close."
+      ],
+      "items": [
+        "Staff of Flowing Water",
+        "Knight's Vow",
+        "Ardent Censer",
+        "Shurelya's Battlesong"
+      ]
+    },
+    {
+      "description": "Situational tanky items",
+      "items": [
+        "Jak'Sho, The Protean",
+        "Randuin's Omen",
+        "Kaenic Rookern",
+        "Spirit Visage",
+        "Thornmail",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "description": "Counter healing",
+      "items": [
+        "Executioner's Calling",
+        "Chempunk Chainsword"
+      ]
+    },
+    {
+      "description": "Counter shielding",
+      "items": [
+        "Serpent's Fang"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage.",
+        "<b>Seeker's Armguard</b> - one time use that can win a fight."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Seeker's Armguard",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Ionian Boots of Lucidity",
+        "Redemption",
+        "Locket of the Iron Solari",
+        "Knight's Vow",
+        "Moonstone Renewer",
+        "Echoes of Helia"
+      ]
+    }
+  ]
+}

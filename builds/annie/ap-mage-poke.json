@@ -1,0 +1,173 @@
+{
+  "id": "ap-mage-poke",
+  "champion": "Annie",
+  "sanitizedName": "annie",
+  "name": "AP",
+  "buildType": "ap",
+  "buildCategory": "meta",
+  "info": {
+    "description": "Full AP Annie build for ARAM. With Luden's Companion and tons of AP.",
+    "how it works": [
+      "You play poke oriented Mage.",
+      "You rush Luden's Companion.",
+      "You build AP items, going full damage."
+    ],
+    "how to play": [
+      "Playing AP Annie build, your default rush is Luden's Companion. In cases, when an enemy team is full of tanks and HP stackers, go <b>Liandry's Torment</b>.",
+      "Adapt to an enemy team. Are they full of tanks, and they rush tons of Magic Resist? You rush <b>Void Staff</b> as #2 or #3 item to counter MR stacking. Their team has champs with lots of healing? Rush <b>Oblivion Orb</b> as #2 item (upgrade to <b>Morellonomicon</b> as 4th or 5th item).",
+      "Somebody is going after you each fight? Always getting ulted by enemy assassins? Rush <b>Zhonya's Hourglass</b>."
+    ],
+    "tricks champion": [
+      "Keep track of the stacks of your <b>Pyromania (Passive)</b>!",
+      "<b>Disintegrate (Q)</b> has travel time, <b>Incinerate (W)</b> is as instant cast, and <b>Summon: Tibbers (R)</b> is a targeted ability. It means that instant stun that they cannot dodge or site step is <b>W</b>.",
+      "If you are not sure if you will land Tibbers, use <b>Q</b> first to stun them, then use <b>R</b>.",
+      "If you hit somebody with <b>Mark</b> (<b>Snowball</b>) and you go in, it is very telegraphed action. Opponents will expect you to use Tibbers right off. So they will use <b>Flash</b> as soon as you get to them. In such cases, it is better to stun them with <b>Q</b> or <b>W</b>. Followed by Tibbers to destroy them, while they are stunned.",
+      "Preparing to engage? Stack your <b>Pyromania (Passive)</b> with <b>Incinerate (W)</b> and <b>Molten Shield (E)</b>.",
+      "If you want to catch somebody off guard or have better engage, use <b>Molten Shield (E)</b> on yourself for Movement Speed buff beforehand.",
+      "Annie combo #1: you can stun somebody with <b>Disintegrate (Q)</b> with 3 stacks! It has travel time, so during that you can use <b>W</b> or <b>E</b> to get full stacks and <b>Q</b> will still stun them.",
+      "Do not be shy and do not wait for 'special moment'. You have good engaging and catching tool - AoE stun with <b>R</b>. Paired with movement speed buff from <b>E</b> + <b>Flash</b> it is a certain AoE stun and often won fight."
+    ],
+    "tricks champion riot": [
+      "Storing a stun for use with her ultimate can turn the tide of a team fight.",
+      "Striking killing blows on minions with Disintegrate enables Annie to farm extremely well early in the game.",
+      "Molten Shield is a good spell to cast to work up to Annie's stun, so sometimes it's beneficial to grab at least 1 rank in it early."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "qwe",
+  "runes": {
+    "major": {
+      "configuration": [
+        "dark",
+        "cheap",
+        "grisly",
+        "ultimate"
+      ],
+      "tree": "Domination"
+    },
+    "minor": {
+      "configuration": [
+        "presence",
+        "cut"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "haste",
+        "adaptive",
+        "scaling_hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Lost Chapter"
+      ]
+    },
+    {
+      "description": "Rush this",
+      "items": [
+        "Luden's Companion"
+      ]
+    },
+    {
+      "description": "Rush this vs. tanks",
+      "items": [
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Sorcerer's Shoes",
+        "Ionian Boots of Lucidity"
+      ]
+    },
+    {
+      "description": "For mana problems",
+      "items": [
+        "Tear of the Goddess",
+        "Rod of Ages",
+        "Seraph's Embrace"
+      ]
+    },
+    {
+      "description": "Good items",
+      "items": [
+        "Stormsurge",
+        "Malignance",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Shadowflame",
+        "Blackfire Torch"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Morellonomicon",
+        "Banshee's Veil",
+        "Zhonya's Hourglass"
+      ]
+    },
+    {
+      "description": "Against high MR",
+      "id": "counter-items",
+      "tooltip": [
+        "If an enemy team has started stacking MR:",
+        "<b>Void Staff</b> - more damage, Magic Penetration % and AP. More universal overall.",
+        "<b>Cryptbloom</b> - less Magic Penetration %, less AP, but offers Ability Haste and AOE heal on takedowns.",
+        "Overall, <b>Void Staff</b> is better, <b>Cryptbloom</b> might be good in situations in which you don't need more damage (because other players do it), but more sustain in fights."
+      ],
+      "items": [
+        "Void Staff",
+        "Cryptbloom"
+      ]
+    },
+    {
+      "description": "Counter high HP",
+      "items": [
+        "Liandry's Torment"
+      ]
+    },
+    {
+      "description": "Counter healing",
+      "items": [
+        "Oblivion Orb",
+        "Morellonomicon"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Sorcery</b> - more AP, true damage to champions and turrets",
+        "<b>Seeker's Armguard</b> - one time use that can win a fight."
+      ],
+      "items": [
+        "Seeker's Armguard",
+        "Elixir of Iron",
+        "Elixir of Sorcery"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Sorcerer's Shoes",
+        "Horizon Focus",
+        "Luden's Companion",
+        "Rabadon's Deathcap",
+        "Void Staff",
+        "Shadowflame"
+      ]
+    }
+  ]
+}

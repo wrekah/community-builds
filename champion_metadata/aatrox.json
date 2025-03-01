@@ -1,0 +1,95 @@
+{
+  "name": "Aatrox",
+  "sanitizedName": "aatrox",
+  "officialTags": [
+    "Fighter",
+    "Tank"
+  ],
+  "roles": [
+    "ITEMS_AD",
+    "FIGHTER",
+    "JUGGERNAUT"
+  ],
+  "resource": "BLOOD_WELL",
+  "attackType": "MELEE",
+  "adaptiveType": "PHYSICAL_DAMAGE",
+  "hasHardCC": true,
+  "hasSlows": true,
+  "hasShielding": false,
+  "hasSelfHeal": true,
+  "hasHealing": false,
+  "hasGapCloser": true,
+  "isBadUser": [
+    "aftershock",
+    "presence"
+  ],
+  "orders": {
+    "ad": "qew",
+    "adc": "qew",
+    "ap": "qew",
+    "bruiser": "eqw",
+    "support": "qew",
+    "tank": "eqw"
+  },
+  "buildCategories": {
+    "ad": "meta",
+    "adc": "fun",
+    "ap": "fun",
+    "bruiser": "off-meta",
+    "support": "fun",
+    "tank": "off-meta"
+  },
+  "customizations": {
+    "ad-lethality": {
+      "buildCategory": "off-meta",
+      "isGoodUser": [
+        "Spirit Visage",
+        "conqueror",
+        "last"
+      ],
+      "isSituationalUser": [
+        "Axiom Arc"
+      ]
+    },
+    "ad-crit": {
+      "how to play": [
+        "#build Aatrox is a very different take on regular Aatrox Bruiser build. Instead of focusing on maxing Q, going AD / Lethality and casting abilities, you are gonna be relying on auto attacks and Crits, auto attack resets from E and Hail of Blades."
+      ],
+      "quickSkillOrder": "eqw"
+    },
+    "ap-rocketbelt-offmeta": {
+      "how to play": [
+        "Your main money-making combo is First Strike + Hextech Rocketbelt + following that up with Qs + E.",
+        "Your alternate combo just for poke is E, then First Strike + Hextech Rocketbelt."
+      ]
+    },
+    "bruiser-defensive": {
+      "buildCategory": "fun",
+      "how to play": [
+        "#build Aatrox is a very different take on regular Aatrox Bruiser build. Instead of focusing on maxing Q, going AD and casting abilities, you are gonna be tanky and mainly auto-attacking, consuming Grasp of the Undying procs and making use of item procs.",
+        "As #build Aatrox, you go in, soak damage, disrupt fights and do a lot of auto attacking.",
+        "You can optionally max Q first, if an enemy team has a lot of ranged/poke champs, and you cannot go toe to toe.",
+        "Your E <b>resets</b> your auto attack!"
+      ]
+    },
+    "support": {
+      "how to play": [
+        "Even as a Support, you can initiate great fights with your xQ or sometimes even with xW. Look for opportunities.",
+        "You can be a fantastic peeler.",
+        "<NESTED>",
+        "Enemies going after your carry? Stay close to your buddy and knock intruders up with your xQ." ,
+        "Slow and pull from xW can also help.",
+        "</NESTED>"
+      ]
+    },
+    "tank": {
+      "buildCategory": "fun",
+      "how to play": [
+        "#build Aatrox is a very different take on regular Aatrox Bruiser build. Instead of focusing on maxing Q, going AD and casting abilities, you are gonna be tanky and mainly auto-attacking, consuming Grasp of the Undying procs and making use of item procs.",
+        "As #build Aatrox, you go in, soak damage, disrupt fights and do a lot of auto attacking.",
+        "You can optionally max Q first, if an enemy team has a lot of ranged/poke champs and you cannot go toe to toe.",
+        "Your E <b>resets</b> your auto attack!"
+      ]
+    }
+  }
+}

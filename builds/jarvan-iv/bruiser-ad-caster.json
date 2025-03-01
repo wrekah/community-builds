@@ -1,0 +1,190 @@
+{
+  "id": "bruiser-ad-caster",
+  "champion": "Jarvan IV",
+  "sanitizedName": "jarvan-iv",
+  "name": "Bruiser",
+  "buildType": "bruiser",
+  "buildCategory": "meta",
+  "info": {
+    "description": "Bruiser Jarvan IV build with Conqueror and stacked with damage.",
+    "how to play": [
+      "Enemy team heavy on AP? Buy MR. Are they heavy on AD? Buy Armor. You need some damage? Well buy that."
+    ],
+    "tricks champion": [
+      "You can use <b>Demacian Standard (E)</b> for brush control.",
+      "Remember that <b>Dragon Strike (Q)</b> reduces target's armor!",
+      "Switch targets often in fights to fully use your <b>Martial Cadence (Passive)</b> for more damage!",
+      "Combo #1: <b>Q</b> + <b>E</b> + <b>Flash</b>. Just <b>Q</b> + <b>E</b> and during the last frames of animation, you can <b>Flash</b> into enemy knocking them up.",
+      "Combo #2: If you have enough Ability Haste, you can put <b>E</b>, wait and <b>Q</b> to it and cast second <b>E</b> hitting your target. This is especially cool with AP builds. So you can cast <b>E</b> while sliding to existing <b>E</b>."
+    ],
+    "tricks champion riot": [
+      "You can use the Dragon Strike / Demacian Standard combo to get out of your own Cataclysm arenas.",
+      "Split your basic attacks on different champions at the beginning of fights to maximize damage.",
+      "Use Demacian Standard as a scouting tool when worried about incoming enemies."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "qew",
+  "runes": {
+    "major": {
+      "configuration": [
+        "conqueror",
+        "triumph",
+        "haste",
+        "last"
+      ],
+      "tree": "Precision"
+    },
+    "minor": {
+      "configuration": [
+        "sudden",
+        "treasure"
+      ],
+      "tree": "Domination"
+    },
+    "passive": {
+      "configuration": [
+        "as",
+        "adaptive",
+        "tenacity_slow_resist"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Pickaxe"
+      ]
+    },
+    {
+      "description": "Starting items vs poke comps",
+      "items": [
+        "Guardian's Horn",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Rush this",
+      "items": [
+        "Eclipse"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Plated Steelcaps",
+        "Mercury's Treads",
+        "Ionian Boots of Lucidity"
+      ]
+    },
+    {
+      "description": "Good damage items",
+      "items": [
+        "Sterak's Gage",
+        "Death's Dance",
+        "Spear of Shojin",
+        "Sundered Sky",
+        "Ravenous Hydra"
+      ]
+    },
+    {
+      "description": "Situational damage items",
+      "items": [
+        "Eclipse",
+        "Blade of The Ruined King",
+        "Black Cleaver"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Warmog's Armor",
+        "Jak'Sho, The Protean",
+        "Fimbulwinter",
+        "Overlord's Bloodmail"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Maw of Malmortius",
+        "Hollow Radiance",
+        "Force of Nature",
+        "Kaenic Rookern",
+        "Abyssal Mask",
+        "Spirit Visage",
+        "Wit's End"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Frozen Heart",
+        "Thornmail",
+        "Sunfire Aegis",
+        "Iceborn Gauntlet",
+        "Dead Man's Plate",
+        "Randuin's Omen",
+        "Unending Despair"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "The Collector",
+        "Mercurial Scimitar",
+        "Phantom Dancer",
+        "Edge of Night"
+      ]
+    },
+    {
+      "description": "Counter healing",
+      "items": [
+        "Executioner's Calling",
+        "Chempunk Chainsword"
+      ]
+    },
+    {
+      "description": "Counter tanks",
+      "items": [
+        "Lord Dominik's Regards",
+        "Mortal Reminder",
+        "Serylda's Grudge"
+      ]
+    },
+    {
+      "description": "Counter shields",
+      "items": [
+        "Serpent's Fang"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Mercury's Treads",
+        "Eclipse",
+        "Spear of Shojin",
+        "Death's Dance",
+        "Ravenous Hydra",
+        "Sundered Sky"
+      ]
+    }
+  ]
+}

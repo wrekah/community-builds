@@ -1,0 +1,189 @@
+{
+  "id": "adc-on-hit",
+  "champion": "Urgot",
+  "sanitizedName": "urgot",
+  "name": "On-Hit",
+  "buildType": "adc",
+  "buildCategory": "meta",
+  "difficultyRating": "medium",
+  "info": {
+    "description": "On-Hit Urgot build with Guinsoo's Rageblade and tons of on hit effects.",
+    "how it works": [
+      "You are going Guinsoo's Rageblade, building Attack Speed and On-Hit items.",
+      "Thanks to Guinsoo's Rageblade, your On Hit effects are gonna trigger two times every third Attack.",
+      "You are gonna play Carry for your team."
+    ],
+    "how to play": [
+      "Build On-Hit items!",
+      "Usually Guinsoo's Rageblade is not good first rush. Get it as #2 or #3 item.",
+      "Your first item should be adapting to enemy team:",
+      "<NESTED>",
+      "If they have tons of HP stacking bruisers/tanks - go <b>Blade of The Ruined King</b>.",
+      "If they are super magic damage heavy / CC - go <b>Wit's End</b>.",
+      "If you want to become more tanky - go <b>Titanic Hydra</b>.",
+      "Otherwise, you can get <b>Kraken Slayer</b>, <b>Statikk Shiv</b> (fun & wave clear)",
+      "</NESTED>",
+      "You need some time to ramp-up your damage (runes, items etc.), so position well and keep auto attacking!",
+      "Remember to use <b>Titanic Hydra</b> active! It deals additional damage and also resets auto attack timer!"
+    ],
+    "tricks champion": [
+      "<b>R</b> + <b>Flash</b> combo: After you hit <b>Fear Beyond Death (R)</b>, you can <b>R</b> into enemy team for AoE Fear. The crucial aspect of this combo is timing: <b>Flash</b> into an enemy team at the very end of animation, this way they cannot react."
+    ],
+    "tricks champion riot": [
+      "Pay attention to your individual leg's cooldowns, as they make for a signficiant portion of your damage",
+      "Land Corrosive Charge or Disdain to lock on to target's with Purge - a great way to trigger multiple legs in rapid succession.",
+      "Save Fear Beyond Death for opponents you know are already too weak to survive. It's especially good for picking off fleeing foes."
+    ]
+  },
+  "summonerSpells": [
+    "ghost",
+    "flash"
+  ],
+  "quickSkillOrder": "weq",
+  "runes": {
+    "major": {
+      "configuration": [
+        "press",
+        "presence",
+        "alacrity",
+        "cut"
+      ],
+      "tree": "Precision"
+    },
+    "minor": {
+      "configuration": [
+        "cheap",
+        "treasure"
+      ],
+      "tree": "Domination"
+    },
+    "passive": {
+      "configuration": [
+        "as",
+        "adaptive",
+        "scaling_hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items for Kraken Slayer",
+      "items": [
+        "Hearthbound Axe"
+      ]
+    },
+    {
+      "description": "Starting items for Statikk Shiv",
+      "items": [
+        "Pickaxe",
+        "Long Sword"
+      ]
+    },
+    {
+      "description": "Starting items for BoTRK",
+      "items": [
+        "Pickaxe",
+        "Long Sword"
+      ]
+    },
+    {
+      "description": "Starting items for Titanic Hydra",
+      "items": [
+        "Tiamat"
+      ]
+    },
+    {
+      "description": "Get this as #2 or #3 item",
+      "items": [
+        "Guinsoo's Rageblade"
+      ]
+    },
+    {
+      "description": "Good first items",
+      "items": [
+        "Statikk Shiv",
+        "Kraken Slayer",
+        "Titanic Hydra",
+        "Blade of The Ruined King"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Mercury's Treads",
+        "Berserker's Greaves"
+      ]
+    },
+    {
+      "description": "For mana problems",
+      "items": [
+        "Essence Reaver"
+      ]
+    },
+    {
+      "description": "Good On-Hit items",
+      "items": [
+        "Terminus",
+        "Blade of The Ruined King",
+        "Runaan's Hurricane",
+        "Kraken Slayer",
+        "Wit's End",
+        "Titanic Hydra"
+      ]
+    },
+    {
+      "description": "Defensive items",
+      "items": [
+        "Maw of Malmortius",
+        "Immortal Shieldbow",
+        "Mercurial Scimitar",
+        "Edge of Night"
+      ]
+    },
+    {
+      "description": "Counter tanks",
+      "items": [
+        "Terminus",
+        "Lord Dominik's Regards",
+        "Blade of The Ruined King"
+      ]
+    },
+    {
+      "description": "Counter healing",
+      "items": [
+        "Executioner's Calling",
+        "Mortal Reminder"
+      ]
+    },
+    {
+      "description": "Counter shielding",
+      "items": [
+        "Serpent's Fang"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Berserker's Greaves",
+        "Guinsoo's Rageblade",
+        "Titanic Hydra",
+        "Blade of The Ruined King",
+        "Kraken Slayer",
+        "Terminus"
+      ]
+    }
+  ]
+}

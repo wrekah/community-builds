@@ -1,0 +1,18 @@
+{
+  "name": "Graves",
+  "sanitizedName": "graves",
+  "customTips": [
+    "You do more damage the closer you are to your target.",
+    "Use auto attack reset (AA + xE + AA). If you time it properly, you can have two almost instant AA for big burst damage.",
+    "Combo for big damage: AA + Q + E + AA."
+
+  ],
+  "officialAllyTips": [
+    "Smoke Screen can be used both to escape and to set up a kill.",
+    "Using Quickdraw to get into range and delivering a point blank Buckshot can do lots of damage."
+  ],
+  "officialEnemyTips": [
+    "Graves deals mostly physical damage so Armor is an effective counter.",
+    "Leaving the Smoke Screen's area of effect removes the harmful effect immediately."
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "bruiser-defensive",
+  "champion": "Jarvan IV",
+  "sanitizedName": "jarvan-iv",
+  "name": "Grasp",
+  "buildType": "bruiser",
+  "buildCategory": "meta",
+  "info": {
+    "description": "Grasp Jarvan IV build for ARAM.",
+    "how it works": [
+      "You play as Jarvan IV Grasp.",
+      "Your build is survivability oriented. With some damage and tons of HP and defense.",
+      "You auto attack a lot."
+    ],
+    "how to play": [
+      "As Jarvan IV playing Grasp build - you need ot <b>adapt</b> to an enemy team and to the game! Enemy team heavy on AP? Buy MR. Are they heavy on AD? Buy Armor. You need some damage? Well buy that.",
+      "Remember to consume your <b>Grasp of the Undying</b> procs!"
+    ],
+    "tricks champion": [
+      "You can use <b>Demacian Standard (E)</b> for brush control.",
+      "Remember that <b>Dragon Strike (Q)</b> reduces target's armor!",
+      "Switch targets often in fights to fully use your <b>Martial Cadence (Passive)</b> for more damage!",
+      "Combo #1: <b>Q</b> + <b>E</b> + <b>Flash</b>. Just <b>Q</b> + <b>E</b> and during the last frames of animation, you can <b>Flash</b> into enemy knocking them up.",
+      "Combo #2: If you have enough Ability Haste, you can put <b>E</b>, wait and <b>Q</b> to it and cast second <b>E</b> hitting your target. This is especially cool with AP builds. So you can cast <b>E</b> while sliding to existing <b>E</b>."
+    ],
+    "tricks champion riot": [
+      "You can use the Dragon Strike / Demacian Standard combo to get out of your own Cataclysm arenas.",
+      "Split your basic attacks on different champions at the beginning of fights to maximize damage.",
+      "Use Demacian Standard as a scouting tool when worried about incoming enemies."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "qew",
+  "runes": {
+    "major": {
+      "configuration": [
+        "grasp",
+        "shield",
+        "second",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "triumph",
+        "alacrity"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "as",
+        "scaling_hp",
+        "tenacity_slow_resist"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Tunneler"
+      ]
+    },
+    {
+      "description": "Starting items vs poke",
+      "items": [
+        "Guardian's Horn",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Ionian Boots of Lucidity",
+        "Plated Steelcaps",
+        "Mercury's Treads"
+      ]
+    },
+    {
+      "description": "Good damage items",
+      "items": [
+        "Stridebreaker",
+        "Sundered Sky",
+        "Black Cleaver",
+        "Titanic Hydra",
+        "Experimental Hexplate"
+      ]
+    },
+    {
+      "description": "Bruiser defensive items",
+      "items": [
+        "Overlord's Bloodmail",
+        "Sterak's Gage",
+        "Death's Dance"
+      ]
+    },
+    {
+      "description": "Situational damage items",
+      "items": [
+        "Blade of The Ruined King",
+        "Wit's End"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Fimbulwinter",
+        "Warmog's Armor",
+        "Jak'Sho, The Protean"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Abyssal Mask",
+        "Force of Nature",
+        "Hollow Radiance",
+        "Kaenic Rookern",
+        "Spirit Visage"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Frozen Heart",
+        "Randuin's Omen",
+        "Thornmail",
+        "Unending Despair",
+        "Sunfire Aegis",
+        "Dead Man's Plate",
+        "Iceborn Gauntlet"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Knight's Vow",
+        "Zeke's Convergence",
+        "Trailblazer"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Plated Steelcaps",
+        "Sundered Sky",
+        "Overlord's Bloodmail",
+        "Force of Nature",
+        "Death's Dance",
+        "Spirit Visage"
+      ]
+    }
+  ]
+}

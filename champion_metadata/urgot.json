@@ -1,0 +1,77 @@
+{
+  "name": "Urgot",
+  "sanitizedName": "urgot",
+  "officialTags": [
+    "Fighter",
+    "Tank"
+  ],
+  "roles": [
+    "FIGHTER",
+    "JUGGERNAUT",
+    "TANK"
+  ],
+  "resource": "MANA",
+  "attackType": "RANGED",
+  "adaptiveType": "PHYSICAL_DAMAGE",
+  "hasHardCC": true,
+  "hasSlows": true,
+  "hasShielding": true,
+  "hasSelfHeal": false,
+  "hasHealing": false,
+  "isGoodUser": [],
+  "isBadUser": [
+    "Fimbulwinter",
+    "aftershock",
+    "alacrity"
+  ],
+  "orders": {
+    "ad": "weq",
+    "adc": "weq",
+    "ap": "weq",
+    "bruiser": "weq",
+    "support": "weq",
+    "tank": "weq"
+  },
+  "summonerSpells": {
+    "bruiser": "mark",
+    "tank": "mark"
+  },
+  "build_category_override": {
+    "tank": "meta"
+  },
+  "customizations": {
+    "adc": {
+      "isGoodUser": [
+        "press",
+        "bloodline"
+      ]
+    },
+    "bruiser-hydra": {
+      "isBadUser": [
+        "Runaan's Hurricane"
+      ]
+    },
+    "support-imperial-mandate": {
+      "buildCategory": "fun",
+      "how it works": [
+        "This build is about applying AOE slow constantly with W + Passive + Rylai's Crystal Scepter (more universal option). You can even get Serylda's Grudge and Iceborn Gauntlet for more consistency. It is all about proccing Imperial Mandate and Font of Life - dealing damage, buffing your allies and healing them."
+      ],
+      "how to play": [
+        "Another good rune is Grasp of the Undying."
+      ],
+      "isGoodUser": [
+        "guardian",
+        "RYLAI_RUSH"
+      ]
+    },
+    "tank-navori": {
+      "how it works": [
+        "You can use Disdain (E) every ~4 seconds (if you keep auto attacking with Purge (W) whole time)!",
+        "Urgot has special interaction with Navori Flickerblade and Purge (W) - it shots 3 times per second, providing a lot of basic ability cooldown reduction.",
+        "This build is all about frequent shields and CC from Disdain (E) from Navori Flickerblade. But to do that, you need to be alive and tanky!",
+        "<strong>Simple explanation</strong><br>With a base cooldown of 14 seconds at max rank and 25 Ability Haste (from items like Fimbulwinter and Spirit Visage ), your base cooldown is reduced to 11.2 seconds. Since you attack 3 times per second and each attack reduces the remaining cooldown by 15%, your ability will be ready in about 4 seconds, as both natural cooldown reduction (1 second per second) and attack-based reductions stack together efficiently.",
+        "<p><strong>Longer explanation:</strong><br>Remaining cooldown after t seconds can be expressed like this:\n<br><strong>f(t)=(((f(t-1)×0.85−0.33)×0.85−0.33)×0.85−0.33)</strong><br> and for t=1 like this <br><strong>f(1)=(((cooldown×0.85−0.33)×0.85−0.33)×0.85−0.33)</strong><br> <br>\nWhere:<ul><li><strong>cooldown:</strong> The initial cooldown (ability haste included).</li><li><strong>f(t):</strong> The remaining cooldown at time t, calculated recursively.</li><li><strong>0.85:</strong> Navori Flickerblade reduction %.</li><li><strong>0.33:</strong> Urgot attacks 3 times per second, so every 0.33 sec. </li></ul></p><p><strong>Math:</strong><br>Starting with an effective cooldown of 11.2 seconds:</p><ul><li>At <strong>t = 1 second:</strong><br>f(1) = (((11.2×0.85−0.33)×0.85−0.33)×0.85−0.33) = <strong>6.03 seconds remaining.</strong></li><li>At <strong>t = 2 seconds:</strong><br>f(2) = (((6.03×0.85−0.33)×0.85−0.33)×0.85−0.33) = <strong>2.85 seconds remaining.</strong></li><li>At <strong>t = 3 seconds:</strong><br>f(3) = (((2.85×0.85−0.33)×0.85−0.33)×0.85−0.33) = <strong>0.90 seconds remaining.</strong></li><li>At <strong>t = 4 seconds:</strong><br>f(4) = (((0.90×0.85−0.33)×0.85−0.33)×0.85−0.33) = <strong>-0.29 seconds remaining (so effectively 0).</strong></li></ul>\n"
+      ]
+    }
+  }
+}

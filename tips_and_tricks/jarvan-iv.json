@@ -1,0 +1,20 @@
+{
+  "name": "Jarvan IV",
+  "sanitizedName": "jarvan-iv",
+  "customTips": [
+    "You can use xE for brush control.",
+    "Remember that xQ reduces target's armor!",
+    "Switch targets often in fights to fully use your xP for more damage!",
+    "Combo #1: Q + E + Flash. Just Q + E and during the last frames of animation, you can Flash into enemy knocking them up.",
+    "Combo #2: If you have enough Ability Haste, you can put E, wait and Q to it and cast second E hitting your target. This is especially cool with AP builds. So you can cast E while sliding to existing E."
+  ],
+  "officialAllyTips": [
+    "You can use the Dragon Strike / Demacian Standard combo to get out of your own Cataclysm arenas.",
+    "Split your basic attacks on different champions at the beginning of fights to maximize damage.",
+    "Use Demacian Standard as a scouting tool when worried about incoming enemies."
+  ],
+  "officialEnemyTips": [
+    "Keep out of the path between Jarvan IV and his Demacian Standard to avoid being knocked up in the air.",
+    "Cataclysm's terrain is a frightening force to fight against, but movement abilities can go through it."
+  ]
+}

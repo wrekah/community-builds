@@ -1,0 +1,157 @@
+{
+  "id": "bruiser-hydra",
+  "champion": "Graves",
+  "sanitizedName": "graves",
+  "name": "Titanic Hydra",
+  "buildType": "bruiser",
+  "buildCategory": "fun",
+  "difficultyRating": "easy",
+  "info": {
+    "description": "Titanic Hydra Graves build. You, Graves, Grasp of the Undying and one very specific item. Hail Hydra!",
+    "how it works": [
+      "You play Bruiser stacking HP, auto attacking and rushing one specific item. You <b>adapt</b> to enemy team, building tanky items.",
+      "You rush <b>Titanic Hydra</b>.",
+      "<b>Titanic Hydra</b> can be your only damage item. Then go <b>full tank</b>.",
+      "Your auto attacks are quite powerful, thanks to <b>Titanic Hydra</b> and <b>Grasp of the Undying</b>. It's your main source of damage + your abilities."
+    ],
+    "how to play": [
+      "This build is focused on a single item - <b>Titanic Hydra</b>.",
+      "How is this build different to other bruisers builds? The main difference is item rush order. You rush <b>Titanic Hydra</b> first, then <b>adapt</b> to the situation!",
+      "If you want to go more damage, Sundered Sky is an excellent damage item for this build. It scales off your HP (so with Grasp, Overgrowth). It gives damage and pretty good sustain in fights. Remember to switch targets to maximize the effect!",
+      "A very effective way of poking enemies is to use <b>Titanic Hydra</b> Active and hit minions in front of them (closer to them, better the effect).",
+      "Another effective way of poking enemies with Titanic, is to hit caster minions in the back.",
+      "Enemy team heavy on AP? Buy MR. They heavy on AD? Buy Armor. You need some damage? Well buy that.",
+      "Remember to consume your <b>Grasp of the Undying</b> procs!"
+    ],
+    "tricks champion": [
+      "You do more damage the closer you are to your target.",
+      "Use auto attack reset (AA + <b>Quickdraw (E)</b> + AA). If you time it properly, you can have two almost instant AA for big burst damage.",
+      "Combo for big damage: AA + <b>Q</b> + <b>E</b> + AA."
+    ],
+    "tricks champion riot": [
+      "Smoke Screen can be used both to escape and to set up a kill.",
+      "Using Quickdraw to get into range and delivering a point blank Buckshot can do lots of damage."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "qew",
+  "runes": {
+    "major": {
+      "configuration": [
+        "grasp",
+        "demolish",
+        "second",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "triumph",
+        "alacrity"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "as",
+        "scaling_hp",
+        "scaling_hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Tiamat"
+      ]
+    },
+    {
+      "description": "Rush #1",
+      "items": [
+        "Titanic Hydra"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Ionian Boots of Lucidity",
+        "Berserker's Greaves",
+        "Mercury's Treads",
+        "Plated Steelcaps"
+      ]
+    },
+    {
+      "description": "Good bruiser items",
+      "items": [
+        "Wit's End",
+        "Blade of The Ruined King",
+        "Heartsteel",
+        "Sundered Sky",
+        "Sterak's Gage",
+        "Titanic Hydra"
+      ]
+    },
+    {
+      "description": "Good tanky items",
+      "items": [
+        "Warmog's Armor",
+        "Overlord's Bloodmail",
+        "Jak'Sho, The Protean"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Force of Nature",
+        "Kaenic Rookern",
+        "Spirit Visage"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Frozen Heart",
+        "Thornmail",
+        "Randuin's Omen",
+        "Iceborn Gauntlet",
+        "Dead Man's Plate"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Trailblazer",
+        "Knight's Vow"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Mercury's Treads",
+        "Titanic Hydra",
+        "Warmog's Armor",
+        "Force of Nature",
+        "Spirit Visage",
+        "Thornmail"
+      ]
+    }
+  ]
+}

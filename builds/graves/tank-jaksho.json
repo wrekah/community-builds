@@ -1,0 +1,148 @@
+{
+  "id": "tank-jaksho",
+  "champion": "Graves",
+  "sanitizedName": "graves",
+  "name": "Tank",
+  "buildType": "tank",
+  "buildCategory": "fun",
+  "info": {
+    "description": "Tank Graves ARAM build with Jak'Sho. Get tanky and adapt to enemy team!",
+    "how to play": [
+      "You start with <b>Guardian's Horn</b>. Your #1 rush should be item that counters enemy team most (MR or Armor item). Get <b>Jak'Sho</b> as #2 item. Then <b>adapt</b>.",
+      "You will be more tanky later on, so play more carefully in the early game.",
+      "<b>Triumph</b> is better overall (heal + gold), but if you want to have easier time with your mana, go Presence of the Mind.",
+      "<b>Guardian's Horn</b> is a surprisingly good item for its price. You can keep it for very long time (or even have it as 6th item).",
+      "You need to <b>adapt</b> your items to the game. Enemy team heavy on AP? Buy MR. They heavy on AD? Buy Armor. You need some damage? Well buy that.",
+      "Remember to consume your <b>Grasp of the Undying</b> procs!"
+    ],
+    "tricks champion": [
+      "You do more damage the closer you are to your target.",
+      "Use auto attack reset (AA + <b>Quickdraw (E)</b> + AA). If you time it properly, you can have two almost instant AA for big burst damage.",
+      "Combo for big damage: AA + <b>Q</b> + <b>E</b> + AA."
+    ],
+    "tricks champion riot": [
+      "Smoke Screen can be used both to escape and to set up a kill.",
+      "Using Quickdraw to get into range and delivering a point blank Buckshot can do lots of damage."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "eqw",
+  "runes": {
+    "major": {
+      "configuration": [
+        "grasp",
+        "demolish",
+        "second",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "triumph",
+        "haste"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "haste",
+        "scaling_hp",
+        "tenacity_slow_resist"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Guardian's Horn",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Ionian Boots of Lucidity",
+        "Plated Steelcaps",
+        "Mercury's Treads"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Jak'Sho, The Protean",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Spirit Visage",
+        "Kaenic Rookern",
+        "Force of Nature"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Thornmail",
+        "Dead Man's Plate",
+        "Frozen Heart",
+        "Iceborn Gauntlet",
+        "Randuin's Omen"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Knight's Vow",
+        "Zeke's Convergence",
+        "Trailblazer"
+      ]
+    },
+    {
+      "description": "Situational DMG items",
+      "tooltip": [
+        "If you need damage, consider below items:",
+        "<b>Titanic Hydra</b> - most universal damage item.",
+        "<b>Overlord's Bloodmail</b> - new item that works nicely with this build.",
+        "<b>Wit's End</b> - situational item vs high AP damage + you need damage and some attack speed.",
+        "<b>Blade of The Ruined King</b> - situational item vs high HP tanks."
+      ],
+      "items": [
+        "Wit's End",
+        "Titanic Hydra",
+        "Blade of The Ruined King",
+        "Overlord's Bloodmail"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Mercury's Treads",
+        "Jak'Sho, The Protean",
+        "Unending Despair",
+        "Warmog's Armor",
+        "Thornmail",
+        "Force of Nature"
+      ]
+    }
+  ]
+}

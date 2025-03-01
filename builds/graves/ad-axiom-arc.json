@@ -1,0 +1,150 @@
+{
+  "id": "ad-axiom-arc",
+  "champion": "Graves",
+  "sanitizedName": "graves",
+  "name": "Axiom Arc",
+  "buildType": "ad",
+  "buildCategory": "off-meta",
+  "difficultyRating": "easy",
+  "info": {
+    "description": "You are gonna be doing one thing and one thing only... ultin' enemies.",
+    "how it works": [
+      "This is a specialization of regular <b>Lethality</b> Graves build that is all about big ults and ulting very often, thanks to <b>Axiom Arc</b>.",
+      "You build <b>Attack Damage</b> and <b>Lethality</b> to boost damage from your abilities.",
+      "You rush <b>Axiom Arc</b> to reduce cooldown of your ultimate, so you can use it more often.",
+      "You try to make the most of your <b>First Strike</b> procs to earn gold and deal damage.",
+      "The easier version of this build is to take <b>Dark Harvest</b> instead of <b>First Strike</b>."
+    ],
+    "how to play": [
+      "Build <b>Axiom Arc</b> first, then follow up with <b>Lethality</b> and AD items.",
+      "If you have mana problems, buy <b>Tear of the Goddess</b>. That should be enough to go through early and mid game. You can sell it later or buy <b>Muramana</b>.",
+      "It is okay to not buy boots, or to sell them in the late game. Use 6th slot for more <b>Lethality</b>! You are covered with <b>Ghost</b>.",
+      "Since 14.1 Boots become even more optional, since you can get Youmuu's Ghostblade!",
+      "Wait for <b>First Strike</b> and proc it with your combo, to deal damage and earn gold.",
+      "Be careful to not get poked, because you waste <b>First Strike</b> procs."
+    ],
+    "how to play champion": [
+      "Your usual money-making combo is <b>First Strike</b> + <b>E</b>, followed by <b>Q</b> + <b>R</b> with auto attacks if possible.",
+      "Your alternate combo just for poke is <b>First Strike</b> + <b>Q</b> + <b>W</b> + auto attacks if possible."
+    ],
+    "tricks champion": [
+      "You do more damage the closer you are to your target.",
+      "Use auto attack reset (AA + <b>Quickdraw (E)</b> + AA). If you time it properly, you can have two almost instant AA for big burst damage.",
+      "Combo for big damage: AA + <b>Q</b> + <b>E</b> + AA."
+    ],
+    "tricks champion riot": [
+      "Smoke Screen can be used both to escape and to set up a kill.",
+      "Using Quickdraw to get into range and delivering a point blank Buckshot can do lots of damage."
+    ]
+  },
+  "summonerSpells": [
+    "ghost",
+    "flash"
+  ],
+  "quickSkillOrder": "qew",
+  "runes": {
+    "major": {
+      "configuration": [
+        "first",
+        "magical",
+        "triple",
+        "cosmic"
+      ],
+      "tree": "Inspiration"
+    },
+    "minor": {
+      "configuration": [
+        "sudden",
+        "ultimate"
+      ],
+      "tree": "Domination"
+    },
+    "passive": {
+      "configuration": [
+        "adaptive",
+        "adaptive",
+        "scaling_hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Pickaxe",
+        "Tear of the Goddess"
+      ]
+    },
+    {
+      "description": "Rush this",
+      "items": [
+        "Axiom Arc"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Ionian Boots of Lucidity"
+      ]
+    },
+    {
+      "description": "Good items",
+      "id": "good-items",
+      "items": [
+        "Serylda's Grudge",
+        "Opportunity",
+        "Youmuu's Ghostblade",
+        "Hubris",
+        "The Collector"
+      ]
+    },
+    {
+      "description": "For mana problems",
+      "items": [
+        "Tear of the Goddess",
+        "Muramana"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Serpent's Fang",
+        "Black Cleaver",
+        "Chempunk Chainsword",
+        "Mercurial Scimitar",
+        "Lord Dominik's Regards"
+      ]
+    },
+    {
+      "description": "Good defensive items",
+      "items": [
+        "Maw of Malmortius",
+        "Edge of Night"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Axiom Arc",
+        "The Collector",
+        "Youmuu's Ghostblade",
+        "Serylda's Grudge",
+        "Muramana",
+        "Hubris"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "tank-thornmail",
+  "champion": "Jarvan IV",
+  "sanitizedName": "jarvan-iv",
+  "name": "Thornmail",
+  "buildType": "tank",
+  "buildCategory": "fun",
+  "fantasy": "Spikey",
+  "info": {
+    "description": "Thornmail Jarvan IV build for ARAM. Counter physical damage, stack Armor or don't play at all!",
+    "how it works": [
+      "You rush <b>Thornmail</b>.",
+      "You go full Armor.",
+      "<strong>Hit or miss. Works only if an enemy team is full of physical damage dealers (preferably auto-attackers).</strong>",
+      "<strong>If an enemy team is full of mages/AP damage, play regular tank build instead.</strong>"
+    ],
+    "how to play": [
+      "How is this <b>Thornmail</b> build for Jarvan IV different to regular tank builds? Item order, Armor stacking and countering enemy physical damage dealers!",
+      "This build is aimed to counter AD comps. Since you don't know the enemy team, you need to <b>adapt</b> in game. It is hit or miss. If they are heavy AP - just play regular tank.",
+      "Late game, you can consider selling boots for 6th item - for even more sweet <b>Thornmail</b> damage!",
+      "Be careful to not waste Aftershock. Try timing it and keeping it for going in."
+    ],
+    "tricks champion": [
+      "You can use <b>Demacian Standard (E)</b> for brush control.",
+      "Remember that <b>Dragon Strike (Q)</b> reduces target's armor!",
+      "Switch targets often in fights to fully use your <b>Martial Cadence (Passive)</b> for more damage!",
+      "Combo #1: <b>Q</b> + <b>E</b> + <b>Flash</b>. Just <b>Q</b> + <b>E</b> and during the last frames of animation, you can <b>Flash</b> into enemy knocking them up.",
+      "Combo #2: If you have enough Ability Haste, you can put <b>E</b>, wait and <b>Q</b> to it and cast second <b>E</b> hitting your target. This is especially cool with AP builds. So you can cast <b>E</b> while sliding to existing <b>E</b>."
+    ],
+    "tricks champion riot": [
+      "You can use the Dragon Strike / Demacian Standard combo to get out of your own Cataclysm arenas.",
+      "Split your basic attacks on different champions at the beginning of fights to maximize damage.",
+      "Use Demacian Standard as a scouting tool when worried about incoming enemies."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "qew",
+  "runes": {
+    "major": {
+      "configuration": [
+        "aftershock",
+        "shield",
+        "conditioning",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "triumph",
+        "alacrity"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "haste",
+        "scaling_hp",
+        "scaling_hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Bramble Vest",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Rush this",
+      "items": [
+        "Thornmail"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Warmog's Armor",
+        "Jak'Sho, The Protean",
+        "Fimbulwinter"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Abyssal Mask",
+        "Force of Nature",
+        "Spirit Visage",
+        "Hollow Radiance",
+        "Kaenic Rookern"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Iceborn Gauntlet",
+        "Dead Man's Plate",
+        "Randuin's Omen",
+        "Frozen Heart",
+        "Unending Despair",
+        "Thornmail",
+        "Sunfire Aegis"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Titanic Hydra"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Thornmail",
+        "Abyssal Mask",
+        "Sunfire Aegis",
+        "Jak'Sho, The Protean",
+        "Randuin's Omen",
+        "Dead Man's Plate"
+      ]
+    }
+  ]
+}

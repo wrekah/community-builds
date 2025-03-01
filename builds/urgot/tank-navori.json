@@ -1,0 +1,181 @@
+{
+  "id": "tank-navori",
+  "champion": "Urgot",
+  "sanitizedName": "urgot",
+  "name": "Navori",
+  "buildType": "tank",
+  "buildCategory": "meta",
+  "difficultyRating": "medium",
+  "info": {
+    "description": "Navori Urgot build. You, one item, being tanky and tons of fun.",
+    "how it works": [
+      "You rush <b>Navori Flickerblade</b> first.",
+      "Then you go <b>full tank</b>.",
+      "Thanks to <b>Navori Flickerblade</b>, you are gonna use your abilities often."
+    ],
+    "how to play": [
+      "This is variation of regular Urgot tank build. Difference is <b>Navori Flickerblade</b>, which introduces basic ability cooldown reduction, so you use your abilities more frequent.",
+      "You start with <b>Guardian's Horn</b> and <b>Tear of the Goddess</b>, which you will build into <b>Fimbulwinter</b> as #2 item. This way you offset Navori rush.",
+      "You rush #1 <b>Navori Flickerblade</b>, #2 <b>Fimbulwinter</b>.",
+      "Good #3 item is <b>Spirit Visage</b>, as it boosts your shields and healing.",
+      "You will be more tanky later on, so play more carefully in the early game. Especially after rushing #1 item.",
+      "<b>Guardian's Horn</b> is a surprisingly good item for its price. You can keep it for very long time (or even have it as 6th item).",
+      "You need to <b>adapt</b> your items to the game. Enemy team heavy on AP? Buy MR. They heavy on AD? Buy Armor. You need some damage? Well buy that.",
+      "Remember to consume your <b>Grasp of the Undying</b> procs!"
+    ],
+    "how it works champion": [
+      "You can use Disdain (<b>E</b>) every ~4 seconds (if you keep auto attacking with Purge (<b>W</b>) whole time)!",
+      "Urgot has special interaction with <b>Navori Flickerblade</b> and Purge (<b>W</b>) - it shots 3 times per second, providing a lot of basic ability cooldown reduction.",
+      "This build is all about frequent shields and CC from Disdain (<b>E</b>) from <b>Navori Flickerblade</b>. But to do that, you need to be alive and tanky!",
+      "<strong>Simple explanation</strong><br>With a base cooldown of 14 seconds at max rank and 25 Ability Haste (from items like <b>Fimbulwinter</b> and <b>Spirit Visage</b> ), your base cooldown is reduced to 11.2 seconds. Since you attack 3 times per second and each attack reduces the remaining cooldown by 15%, your ability will be ready in about 4 seconds, as both natural cooldown reduction (1 second per second) and attack-based reductions stack together efficiently.",
+      "<p><strong>Longer explanation:</strong><br>Remaining cooldown after t seconds can be expressed like this:\n<br><strong>f(t)=(((f(t-1)\u00d70.85\u22120.33)\u00d70.85\u22120.33)\u00d70.85\u22120.33)</strong><br> and for t=1 like this <br><strong>f(1)=(((cooldown\u00d70.85\u22120.33)\u00d70.85\u22120.33)\u00d70.85\u22120.33)</strong><br> <br>\nWhere:<ul><li><strong>cooldown:</strong> The initial cooldown (ability haste included).</li><li><strong>f(t):</strong> The remaining cooldown at time t, calculated recursively.</li><li><strong>0.85:</strong> <b>Navori Flickerblade</b> reduction %.</li><li><strong>0.33:</strong> Urgot attacks 3 times per second, so every 0.33 sec. </li></ul></p><p><strong>Math:</strong><br>Starting with an effective cooldown of 11.2 seconds:</p><ul><li>At <strong>t = 1 second:</strong><br>f(1) = (((11.2\u00d70.85\u22120.33)\u00d70.85\u22120.33)\u00d70.85\u22120.33) = <strong>6.03 seconds remaining.</strong></li><li>At <strong>t = 2 seconds:</strong><br>f(2) = (((6.03\u00d70.85\u22120.33)\u00d70.85\u22120.33)\u00d70.85\u22120.33) = <strong>2.85 seconds remaining.</strong></li><li>At <strong>t = 3 seconds:</strong><br>f(3) = (((2.85\u00d70.85\u22120.33)\u00d70.85\u22120.33)\u00d70.85\u22120.33) = <strong>0.90 seconds remaining.</strong></li><li>At <strong>t = 4 seconds:</strong><br>f(4) = (((0.90\u00d70.85\u22120.33)\u00d70.85\u22120.33)\u00d70.85\u22120.33) = <strong>-0.29 seconds remaining (so effectively 0).</strong></li></ul>\n"
+    ],
+    "tricks champion": [
+      "<b>R</b> + <b>Flash</b> combo: After you hit <b>Fear Beyond Death (R)</b>, you can <b>R</b> into enemy team for AoE Fear. The crucial aspect of this combo is timing: <b>Flash</b> into an enemy team at the very end of animation, this way they cannot react."
+    ],
+    "tricks champion riot": [
+      "Pay attention to your individual leg's cooldowns, as they make for a signficiant portion of your damage",
+      "Land Corrosive Charge or Disdain to lock on to target's with Purge - a great way to trigger multiple legs in rapid succession.",
+      "Save Fear Beyond Death for opponents you know are already too weak to survive. It's especially good for picking off fleeing foes."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "weq",
+  "runes": {
+    "major": {
+      "configuration": [
+        "grasp",
+        "shield",
+        "conditioning",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "triumph",
+        "last"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "haste",
+        "scaling_hp",
+        "tenacity_slow_resist"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Guardian's Horn",
+        "Tear of the Goddess"
+      ]
+    },
+    {
+      "description": "Rush #1",
+      "items": [
+        "Navori Flickerblade"
+      ]
+    },
+    {
+      "description": "Rush #2",
+      "items": [
+        "Fimbulwinter"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Mercury's Treads",
+        "Ionian Boots of Lucidity",
+        "Plated Steelcaps"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Jak'Sho, The Protean",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Hollow Radiance",
+        "Kaenic Rookern",
+        "Force of Nature",
+        "Abyssal Mask",
+        "Spirit Visage"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Sunfire Aegis",
+        "Frozen Heart",
+        "Dead Man's Plate",
+        "Unending Despair",
+        "Randuin's Omen",
+        "Iceborn Gauntlet",
+        "Thornmail"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Trailblazer",
+        "Knight's Vow"
+      ]
+    },
+    {
+      "description": "Situational DMG items",
+      "tooltip": [
+        "If you need damage, consider below items:",
+        "<b>Titanic Hydra</b> - most universal damage item.",
+        "<b>Overlord's Bloodmail</b> - new item that works nicely with this build.",
+        "<b>Wit's End</b> - situational item vs high AP damage + you need damage and some attack speed.",
+        "<b>Runaan's Hurricane</b> - situational item for more damage. Very fun with <b>Titanic Hydra</b>.",
+        "<b>Blade of The Ruined King</b> - situational item vs high HP tanks.",
+        "<b>Sterak's Gage</b> - situational item for survivability, if you cannot survive burst, buy this."
+      ],
+      "items": [
+        "Wit's End",
+        "Blade of The Ruined King",
+        "Titanic Hydra",
+        "Sterak's Gage",
+        "Runaan's Hurricane",
+        "Overlord's Bloodmail"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Mercury's Treads",
+        "Navori Flickerblade",
+        "Fimbulwinter",
+        "Randuin's Omen",
+        "Jak'Sho, The Protean",
+        "Spirit Visage"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "ad-crit",
+  "champion": "Aatrox",
+  "sanitizedName": "aatrox",
+  "name": "Full Crit",
+  "buildType": "ad",
+  "buildCategory": "fun",
+  "difficultyRating": "hard",
+  "info": {
+    "description": "Aatrox Full Crit build. You go AD, Attack Speed and Crit to burst enemies.",
+    "how it works": [
+      "You go <b>Full Crit</b>.",
+      "You go in and play around <b>Hail of Blades</b> to burst enemies.",
+      "You back away and wait for <b>Hail of Blades</b>. Repeat.",
+      "This build works best if enemy team has squishy champions. If you are against a lot off-tanks/bruisers, this might not be best build. You can make it work, however, by rushing <b>Lord Dominik's Regards</b>."
+    ],
+    "how to play": [
+      "This build shines with <b>100% crit</b>. You will instakill squishes. Until that, it might be challenging to 100-0 anyone. Look for opportunities to go in and score kills. Also focus on farming minions if possible (to scale faster).",
+      "Wait for your moment to go for a kill. You have a big burst thanks to <b>Full Crit</b> and <b>Hail of Blades</b>, but you are squishy. And outside of <b>Hail of Blades</b> procs (especially early game) you don't have much damage.",
+      "<b>Snowball</b> / <b>Mark</b> is an essential cooldown for this build. Do not waste it or even wait to hit the enemy at point-blank range to ensure hit (so you follow them, if they <b>Flash</b>).",
+      "Enemy team might not check your items right away, you could use that for your advantage to nuke unsuspected enemy.",
+      "After they checked your items and noticed that you have damage and are squishy, they are going to target you in fights. Be careful, after early game probably you need to modify your playstyle and stay back and wait for a good moment to join fights.",
+      "If they have tons of CC, get Mercury's Treads, Edge of Night or even Mercurial Scimitar to counter that.",
+      "If you are not doing well, or an enemy team is slightly ahead, you can <b>adapt</b> and buy tank items. Worst case scenario, you can sell everything late game and <b>'respec'</b> into <b>full tank</b>."
+    ],
+    "how to play champion": [
+      "<b>Full Crit</b> Aatrox is a very different take on regular Aatrox Bruiser build. Instead of focusing on maxing <b>Q</b>, going AD / <b>Lethality</b> and casting abilities, you are gonna be relying on auto attacks and Crits, auto attack resets from <b>E</b> and <b>Hail of Blades</b>."
+    ],
+    "tricks champion": [
+      "<b>Q</b> + <b>Flash</b> combos: You can use <b>Flash</b> during any time of <b>The Darkin Blade (Q)</b> animations. You can even combine that with <b>Umbral Dash (E)</b>. You can <b>Flash</b> and <b>Umbral Dash (E)</b> in any direction, making very spectacular and flashy plays.",
+      "You can use <b>Umbral Dash (E)</b> for short dash, this way animation lasts shorter, and you can get crucial milliseconds to auto attack faster (can be deciding a factor in 1v1).",
+      "You can reset your auto attack timer with <b>Umbral Dash (E)</b>. It might be crucial in duels, or when pushing enemy turrets."
+    ],
+    "tricks champion riot": [
+      "Use Umbral Dash while casting The Darkin Blade to increase your chances of hitting the enemy.",
+      "Crowd Control abilities like Infernal Chains or your allies' immobilizing effects will help you set up The Darkin Blade.",
+      "Cast World Ender when you are sure you can force a fight."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "eqw",
+  "runes": {
+    "major": {
+      "configuration": [
+        "hail",
+        "sudden",
+        "grisly",
+        "treasure"
+      ],
+      "tree": "Domination"
+    },
+    "minor": {
+      "configuration": [
+        "alacrity",
+        "cut"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "as",
+        "adaptive",
+        "scaling_hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "B. F. Sword"
+      ]
+    },
+    {
+      "description": "Good first items",
+      "items": [
+        "Infinity Edge",
+        "The Collector",
+        "Yun Tal Wildarrows"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Mercury's Treads",
+        "Ionian Boots of Lucidity",
+        "Berserker's Greaves",
+        "Plated Steelcaps"
+      ]
+    },
+    {
+      "description": "Good items",
+      "items": [
+        "Phantom Dancer",
+        "Infinity Edge",
+        "Bloodthirster",
+        "The Collector",
+        "Navori Flickerblade"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Edge of Night",
+        "Mercurial Scimitar",
+        "Immortal Shieldbow",
+        "Maw of Malmortius"
+      ]
+    },
+    {
+      "description": "Situational vs. tanks",
+      "items": [
+        "Lord Dominik's Regards",
+        "Blade of The Ruined King"
+      ]
+    },
+    {
+      "description": "Situational vs. healing",
+      "items": [
+        "Executioner's Calling",
+        "Mortal Reminder"
+      ]
+    },
+    {
+      "description": "Situational vs. shields",
+      "items": [
+        "Serpent's Fang"
+      ]
+    },
+    {
+      "description": "Good MR/Armor items",
+      "items": [
+        "Wit's End",
+        "Edge of Night",
+        "Death's Dance"
+      ]
+    },
+    {
+      "description": "If you need to go tanky",
+      "items": [
+        "Sunfire Aegis",
+        "Thornmail",
+        "Kaenic Rookern",
+        "Jak'Sho, The Protean",
+        "Warmog's Armor",
+        "Force of Nature"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Berserker's Greaves",
+        "The Collector",
+        "Lord Dominik's Regards",
+        "Edge of Night",
+        "Navori Flickerblade",
+        "Infinity Edge"
+      ]
+    }
+  ]
+}

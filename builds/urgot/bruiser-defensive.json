@@ -1,0 +1,163 @@
+{
+  "id": "bruiser-defensive",
+  "champion": "Urgot",
+  "sanitizedName": "urgot",
+  "name": "Grasp",
+  "buildType": "bruiser",
+  "buildCategory": "meta",
+  "info": {
+    "description": "Grasp Urgot build for ARAM.",
+    "how it works": [
+      "You play as Urgot Grasp.",
+      "Your build is survivability oriented. With some damage and tons of HP and defense.",
+      "You auto attack a lot."
+    ],
+    "how to play": [
+      "As Urgot playing Grasp build - you need ot <b>adapt</b> to an enemy team and to the game! Enemy team heavy on AP? Buy MR. Are they heavy on AD? Buy Armor. You need some damage? Well buy that.",
+      "Remember to consume your <b>Grasp of the Undying</b> procs!"
+    ],
+    "tricks champion": [
+      "<b>R</b> + <b>Flash</b> combo: After you hit <b>Fear Beyond Death (R)</b>, you can <b>R</b> into enemy team for AoE Fear. The crucial aspect of this combo is timing: <b>Flash</b> into an enemy team at the very end of animation, this way they cannot react."
+    ],
+    "tricks champion riot": [
+      "Pay attention to your individual leg's cooldowns, as they make for a signficiant portion of your damage",
+      "Land Corrosive Charge or Disdain to lock on to target's with Purge - a great way to trigger multiple legs in rapid succession.",
+      "Save Fear Beyond Death for opponents you know are already too weak to survive. It's especially good for picking off fleeing foes."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "weq",
+  "runes": {
+    "major": {
+      "configuration": [
+        "grasp",
+        "shield",
+        "second",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "triumph",
+        "alacrity"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "as",
+        "scaling_hp",
+        "tenacity_slow_resist"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Tunneler"
+      ]
+    },
+    {
+      "description": "Starting items vs poke",
+      "items": [
+        "Guardian's Horn",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Ionian Boots of Lucidity",
+        "Plated Steelcaps",
+        "Mercury's Treads"
+      ]
+    },
+    {
+      "description": "Good damage items",
+      "items": [
+        "Stridebreaker",
+        "Black Cleaver",
+        "Sundered Sky",
+        "Titanic Hydra",
+        "Experimental Hexplate"
+      ]
+    },
+    {
+      "description": "Bruiser defensive items",
+      "items": [
+        "Sterak's Gage",
+        "Overlord's Bloodmail",
+        "Death's Dance"
+      ]
+    },
+    {
+      "description": "Situational damage items",
+      "items": [
+        "Blade of The Ruined King",
+        "Wit's End"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Jak'Sho, The Protean",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Spirit Visage",
+        "Kaenic Rookern",
+        "Force of Nature"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Frozen Heart",
+        "Thornmail",
+        "Randuin's Omen",
+        "Dead Man's Plate",
+        "Iceborn Gauntlet"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Trailblazer",
+        "Zeke's Convergence",
+        "Knight's Vow"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Mercury's Treads",
+        "Sundered Sky",
+        "Spirit Visage",
+        "Force of Nature",
+        "Overlord's Bloodmail",
+        "Death's Dance"
+      ]
+    }
+  ]
+}

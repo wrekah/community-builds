@@ -1,0 +1,173 @@
+{
+  "id": "bruiser-defensive",
+  "champion": "Aatrox",
+  "sanitizedName": "aatrox",
+  "name": "Grasp",
+  "buildType": "bruiser",
+  "buildCategory": "fun",
+  "info": {
+    "description": "Grasp Aatrox build for ARAM.",
+    "how it works": [
+      "You play as Aatrox Grasp.",
+      "Your build is survivability oriented. With some damage and tons of HP and defense.",
+      "You auto attack a lot."
+    ],
+    "how to play": [
+      "As Aatrox playing Grasp build - you need ot <b>adapt</b> to an enemy team and to the game! Enemy team heavy on AP? Buy MR. Are they heavy on AD? Buy Armor. You need some damage? Well buy that.",
+      "Remember to consume your <b>Grasp of the Undying</b> procs!"
+    ],
+    "how to play champion": [
+      "Grasp Aatrox is a very different take on regular Aatrox Bruiser build. Instead of focusing on maxing <b>Q</b>, going AD and casting abilities, you are gonna be tanky and mainly auto-attacking, consuming <b>Grasp of the Undying</b> procs and making use of item procs.",
+      "As Grasp Aatrox, you go in, soak damage, disrupt fights and do a lot of auto attacking.",
+      "You can optionally max <b>Q</b> first, if an enemy team has a lot of ranged/poke champs, and you cannot go toe to toe.",
+      "Your <b>E</b> <b>resets</b> your auto attack!"
+    ],
+    "tricks champion": [
+      "<b>Q</b> + <b>Flash</b> combos: You can use <b>Flash</b> during any time of <b>The Darkin Blade (Q)</b> animations. You can even combine that with <b>Umbral Dash (E)</b>. You can <b>Flash</b> and <b>Umbral Dash (E)</b> in any direction, making very spectacular and flashy plays.",
+      "You can use <b>Umbral Dash (E)</b> for short dash, this way animation lasts shorter, and you can get crucial milliseconds to auto attack faster (can be deciding a factor in 1v1).",
+      "You can reset your auto attack timer with <b>Umbral Dash (E)</b>. It might be crucial in duels, or when pushing enemy turrets."
+    ],
+    "tricks champion riot": [
+      "Use Umbral Dash while casting The Darkin Blade to increase your chances of hitting the enemy.",
+      "Crowd Control abilities like Infernal Chains or your allies' immobilizing effects will help you set up The Darkin Blade.",
+      "Cast World Ender when you are sure you can force a fight."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "eqw",
+  "runes": {
+    "major": {
+      "configuration": [
+        "grasp",
+        "font",
+        "second",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "triumph",
+        "alacrity"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "as",
+        "scaling_hp",
+        "tenacity_slow_resist"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Tunneler"
+      ]
+    },
+    {
+      "description": "Starting items vs poke",
+      "items": [
+        "Guardian's Horn",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Mercury's Treads",
+        "Ionian Boots of Lucidity",
+        "Plated Steelcaps"
+      ]
+    },
+    {
+      "description": "Good damage items",
+      "items": [
+        "Sundered Sky",
+        "Black Cleaver",
+        "Titanic Hydra",
+        "Stridebreaker",
+        "Experimental Hexplate"
+      ]
+    },
+    {
+      "description": "Bruiser defensive items",
+      "items": [
+        "Overlord's Bloodmail",
+        "Sterak's Gage",
+        "Death's Dance"
+      ]
+    },
+    {
+      "description": "Situational damage items",
+      "items": [
+        "Blade of The Ruined King",
+        "Wit's End"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Jak'Sho, The Protean",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Spirit Visage",
+        "Hollow Radiance",
+        "Kaenic Rookern",
+        "Abyssal Mask",
+        "Force of Nature"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Thornmail",
+        "Dead Man's Plate",
+        "Randuin's Omen",
+        "Iceborn Gauntlet",
+        "Unending Despair",
+        "Sunfire Aegis"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Trailblazer",
+        "Knight's Vow"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Plated Steelcaps",
+        "Sundered Sky",
+        "Force of Nature",
+        "Death's Dance",
+        "Overlord's Bloodmail",
+        "Spirit Visage"
+      ]
+    }
+  ]
+}

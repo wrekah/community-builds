@@ -1,0 +1,182 @@
+{
+  "id": "bruiser-stride",
+  "champion": "Urgot",
+  "sanitizedName": "urgot",
+  "name": "Bruiser",
+  "buildType": "bruiser",
+  "buildCategory": "meta",
+  "info": {
+    "description": "Bruiser Urgot build with Stridebreaker.",
+    "how it works": [
+      "You rush Stridebreaker.",
+      "You play Bruiser stacking HP, going tanky and building some damage."
+    ],
+    "how to play": [
+      "Enemy team heavy on AP? Buy MR. They heavy on AD? Buy Armor. You need some damage? Well buy that."
+    ],
+    "tricks champion": [
+      "<b>R</b> + <b>Flash</b> combo: After you hit <b>Fear Beyond Death (R)</b>, you can <b>R</b> into enemy team for AoE Fear. The crucial aspect of this combo is timing: <b>Flash</b> into an enemy team at the very end of animation, this way they cannot react."
+    ],
+    "tricks champion riot": [
+      "Pay attention to your individual leg's cooldowns, as they make for a signficiant portion of your damage",
+      "Land Corrosive Charge or Disdain to lock on to target's with Purge - a great way to trigger multiple legs in rapid succession.",
+      "Save Fear Beyond Death for opponents you know are already too weak to survive. It's especially good for picking off fleeing foes."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "weq",
+  "runes": {
+    "major": {
+      "configuration": [
+        "conqueror",
+        "triumph",
+        "haste",
+        "last"
+      ],
+      "tree": "Precision"
+    },
+    "minor": {
+      "configuration": [
+        "cheap",
+        "treasure"
+      ],
+      "tree": "Domination"
+    },
+    "passive": {
+      "configuration": [
+        "adaptive",
+        "scaling_hp",
+        "tenacity_slow_resist"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Tiamat"
+      ]
+    },
+    {
+      "description": "Starting items vs poke comps",
+      "items": [
+        "Guardian's Horn",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Rush this",
+      "items": [
+        "Stridebreaker"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Mercury's Treads",
+        "Ionian Boots of Lucidity",
+        "Plated Steelcaps"
+      ]
+    },
+    {
+      "description": "Good damage items",
+      "items": [
+        "Sterak's Gage",
+        "Experimental Hexplate",
+        "Black Cleaver",
+        "Death's Dance",
+        "Sundered Sky"
+      ]
+    },
+    {
+      "description": "Situational damage items",
+      "items": [
+        "Blade of The Ruined King"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Overlord's Bloodmail",
+        "Jak'Sho, The Protean",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Maw of Malmortius",
+        "Force of Nature",
+        "Wit's End",
+        "Spirit Visage",
+        "Kaenic Rookern"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Frozen Heart",
+        "Iceborn Gauntlet",
+        "Thornmail",
+        "Randuin's Omen",
+        "Dead Man's Plate"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Edge of Night",
+        "Mercurial Scimitar",
+        "Quicksilver Sash"
+      ]
+    },
+    {
+      "description": "Counter healing",
+      "items": [
+        "Executioner's Calling",
+        "Chempunk Chainsword"
+      ]
+    },
+    {
+      "description": "Counter tanks",
+      "items": [
+        "Lord Dominik's Regards",
+        "Mortal Reminder",
+        "Serylda's Grudge"
+      ]
+    },
+    {
+      "description": "Counter shields",
+      "items": [
+        "Serpent's Fang"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Mercury's Treads",
+        "Stridebreaker",
+        "Sundered Sky",
+        "Kaenic Rookern",
+        "Force of Nature",
+        "Thornmail"
+      ]
+    }
+  ]
+}

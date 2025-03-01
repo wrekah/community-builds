@@ -1,0 +1,17 @@
+{
+  "name": "Urgot",
+  "sanitizedName": "urgot",
+  "customTips": [
+    "R + Flash combo: After you hit xR, you can R into enemy team for AoE Fear. The crucial aspect of this combo is timing: Flash into an enemy team at the very end of animation, this way they cannot react."
+  ],
+  "officialAllyTips": [
+    "Pay attention to your individual leg's cooldowns, as they make for a signficiant portion of your damage",
+    "Land Corrosive Charge or Disdain to lock on to target's with Purge - a great way to trigger multiple legs in rapid succession.",
+    "Save Fear Beyond Death for opponents you know are already too weak to survive. It's especially good for picking off fleeing foes."
+  ],
+  "officialEnemyTips": [
+    "Urgot relies heavily on blasting opponents with his legs, which have their own cooldowns and only detonate when he attacks in the direction they are facing. Avoid getting hit by multiple.",
+    "Urgot can deal and absorb tremendous amounts of damage with Purge, but slows himself while firing.",
+    "If you are struck by Fear Beyond Death, do your best to avoid falling below the execution threshold (25% of your Maximum Health) until the effect times out."
+  ]
+}

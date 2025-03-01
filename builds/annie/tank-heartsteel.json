@@ -1,0 +1,206 @@
+{
+  "id": "tank-heartsteel",
+  "champion": "Annie",
+  "sanitizedName": "annie",
+  "name": "Tank",
+  "buildType": "tank",
+  "buildCategory": "fun",
+  "difficultyRating": "medium",
+  "info": {
+    "description": "Tank Annie ARAM build with Heartsteel and Grasp of the Undying.",
+    "how it works": [
+      "You play Tank Annie.",
+      "You rush <b>Heartsteel</b> #1.",
+      "You are gonna have tons of HP.",
+      "You build items that scale and/or benefit from HP stacking.",
+      "<NESTED>",
+      "And you build Armor and MR tanky items, depending on the situation and adapting to the enemy team.",
+      "</NESTED>"
+    ],
+    "how to play": [
+      "xxx General",
+      "You rush <b>Heartsteel</b>.",
+      "xxx Item Order",
+      "<b>Item Order after <b>Heartsteel</b> is flexible.</b> You need to see what you need in particular game:",
+      "<NESTED>",
+      "Get Overlord's Bloodmail for more damage and AD.",
+      "Get <b>Warmog's Armor</b> as anti-poke item (helps you stay in lane) and for some sweet HP.",
+      "Get <b>Unending Despair</b>, if there are prolonged fights in which you can stay near enemies (or enemies near you). The items gets better, the more HP you get.",
+      "Get various Armor and/or MR items to counter enemy team.",
+      "Get <b>Titanic Hydra</b> for more fun , more damage and some survivability.",
+      "</NESTED>",
+      "xxx Items",
+      "Sundered Sky is very good damage item for this build (as #2-#4 depending on the game). It scales off your HP (so Grasp, <b>Heartsteel</b>, Overgrowth). It gives damage and pretty good sustain in fights. Remember to switch targets to maximize the effect!",
+      "<b>Guardian's Horn</b> is a surprisingly good item for its price. You can keep it for a very long time (or even have it as 6th item).",
+      "xxx Runes",
+      "<b>Second Wind</b> scales off with your HP, so it is going to be powerful sustain rune. You can use it by purposefully triggering it by letting enemies poke you a little or walking over some harmful spells.",
+      "Shield Bash is good rune for this build, since you can proc it reliably.",
+      "<b>Triumph</b> is better (heal + gold), but if you want to have easier time with your mana, go Presence of the Mind.",
+      "xxx During game",
+      "Your main damage and power comes from auto attacks - <b>Grasp of the Undying</b>, <b>Heartsteel</b>",
+      "This is auto attack oriented Annie build, so do it! Especially if running with <b>Titanic Hydra</b> and Sundered Sky as well.",
+      "You can prioritize switching between champions in the fight, just to farm more <b>Heartsteel</b> procs.",
+      "You need to <b>adapt</b> your items to the game. Enemy team heavy on AP? Buy MR. They heavy on AD? Buy Armor. You need some damage? Well buy that.",
+      "Remember to consume your <b>Heartsteel</b> procs!",
+      "Remember to consume your <b>Grasp of the Undying</b> procs!"
+    ],
+    "tricks champion": [
+      "Keep track of the stacks of your <b>Pyromania (Passive)</b>!",
+      "<b>Disintegrate (Q)</b> has travel time, <b>Incinerate (W)</b> is as instant cast, and <b>Summon: Tibbers (R)</b> is a targeted ability. It means that instant stun that they cannot dodge or site step is <b>W</b>.",
+      "If you are not sure if you will land Tibbers, use <b>Q</b> first to stun them, then use <b>R</b>.",
+      "If you hit somebody with <b>Mark</b> (<b>Snowball</b>) and you go in, it is very telegraphed action. Opponents will expect you to use Tibbers right off. So they will use <b>Flash</b> as soon as you get to them. In such cases, it is better to stun them with <b>Q</b> or <b>W</b>. Followed by Tibbers to destroy them, while they are stunned.",
+      "Preparing to engage? Stack your <b>Pyromania (Passive)</b> with <b>Incinerate (W)</b> and <b>Molten Shield (E)</b>.",
+      "If you want to catch somebody off guard or have better engage, use <b>Molten Shield (E)</b> on yourself for Movement Speed buff beforehand.",
+      "Annie combo #1: you can stun somebody with <b>Disintegrate (Q)</b> with 3 stacks! It has travel time, so during that you can use <b>W</b> or <b>E</b> to get full stacks and <b>Q</b> will still stun them.",
+      "Do not be shy and do not wait for 'special moment'. You have good engaging and catching tool - AoE stun with <b>R</b>. Paired with movement speed buff from <b>E</b> + <b>Flash</b> it is a certain AoE stun and often won fight."
+    ],
+    "tricks champion riot": [
+      "Storing a stun for use with her ultimate can turn the tide of a team fight.",
+      "Striking killing blows on minions with Disintegrate enables Annie to farm extremely well early in the game.",
+      "Molten Shield is a good spell to cast to work up to Annie's stun, so sometimes it's beneficial to grab at least 1 rank in it early."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "eqw",
+  "runes": {
+    "major": {
+      "configuration": [
+        "grasp",
+        "shield",
+        "second",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "triumph",
+        "alacrity"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "as",
+        "scaling_hp",
+        "tenacity_slow_resist"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Giant's Belt",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Starting items vs poke",
+      "items": [
+        "Guardian's Horn",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Ionian Boots of Lucidity",
+        "Plated Steelcaps",
+        "Mercury's Treads"
+      ]
+    },
+    {
+      "description": "Rush this",
+      "items": [
+        "Heartsteel"
+      ]
+    },
+    {
+      "description": "Core items",
+      "items": [
+        "Heartsteel",
+        "Warmog's Armor",
+        "Overlord's Bloodmail",
+        "Unending Despair"
+      ]
+    },
+    {
+      "description": "Dmg items",
+      "tooltip": [
+        "If you need damage, consider below items:",
+        "<b>Titanic Hydra</b> - most universal damage item.",
+        "<b>Sundered Sky</b> - pretty good item that scales off your HP, gives damage and pretty good sustain in fights",
+        "<b>Wit's End</b> - situational item vs high AP damage + you need damage and some attack speed.",
+        "<b>Zhonya's Hourglass</b> - situational item for survivability, if you cannot survive burst."
+      ],
+      "items": [
+        "Titanic Hydra",
+        "Wit's End",
+        "Sundered Sky",
+        "Zhonya's Hourglass"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Jak'Sho, The Protean",
+        "Fimbulwinter"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Force of Nature",
+        "Spirit Visage",
+        "Kaenic Rookern"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Dead Man's Plate",
+        "Iceborn Gauntlet",
+        "Thornmail",
+        "Frozen Heart",
+        "Randuin's Omen"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Trailblazer",
+        "Knight's Vow"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "Cappa Juice - if you have tons of gold and want to be fashionable.",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Sorcery</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Sorcery",
+        "Cappa Juice"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Mercury's Treads",
+        "Heartsteel",
+        "Overlord's Bloodmail",
+        "Warmog's Armor",
+        "Kaenic Rookern",
+        "Thornmail"
+      ]
+    }
+  ]
+}

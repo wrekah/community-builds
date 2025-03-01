@@ -1,0 +1,19 @@
+{
+  "name": "Aatrox",
+  "sanitizedName": "aatrox",
+  "customTips": [
+    "Q + Flash combos: You can use Flash during any time of xQ animations. You can even combine that with xE. You can Flash and xE in any direction, making very spectacular and flashy plays.",
+    "You can use xE for short dash, this way animation lasts shorter, and you can get crucial milliseconds to auto attack faster (can be deciding a factor in 1v1).",
+    "You can reset your auto attack timer with xE. It might be crucial in duels, or when pushing enemy turrets."
+  ],
+  "officialAllyTips": [
+    "Use Umbral Dash while casting The Darkin Blade to increase your chances of hitting the enemy.",
+    "Crowd Control abilities like Infernal Chains or your allies' immobilizing effects will help you set up The Darkin Blade.",
+    "Cast World Ender when you are sure you can force a fight."
+  ],
+  "officialEnemyTips": [
+    "Aatrox's attacks are very telegraphed, so use the time to dodge the hit zones.",
+    "Aatrox's Infernal Chains are easier to exit when running towards the sides or at Aatrox.",
+    "Keep your distance when Aatrox uses his Ultimate to prevent him from reviving."
+  ]
+}

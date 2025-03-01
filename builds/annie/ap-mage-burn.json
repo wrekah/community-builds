@@ -1,52 +1,52 @@
 {
   "id": "ap-mage-burn",
-  "champion": "Graves",
-  "sanitizedName": "graves",
+  "champion": "Annie",
+  "sanitizedName": "annie",
   "name": "AP Burn",
   "buildType": "ap",
-  "buildCategory": "fun",
+  "buildCategory": "meta",
   "info": {
-    "description": "Liandry's Graves AP build. Everything will burn. With DOTs.",
+    "description": "Liandry's Annie AP build. Everything will burn. With DOTs.",
     "how it works": [
       "You play as Mage building Burn items.",
       "You rush <b>Liandry's Torment</b>.",
       "You burn your enemies. With DOTs. And debuffs."
     ],
     "how to play": [
-      "Playing AP Burn Graves build, your default rush is <b>Liandry's Torment</b> vs. HP, Blackfire Torch vs. squishes. Then get the other item",
+      "Playing AP Burn Annie build, your default rush is <b>Liandry's Torment</b> vs. HP, Blackfire Torch vs. squishes. Then get the other item",
       "Adapt to an enemy team. Are they full of tanks, and they rush tons of Magic Resist? You rush <b>Void Staff</b> as #2 or #3 item to counter MR stacking. Their team has champs with lots of healing? Rush <b>Oblivion Orb</b> as #2 item (upgrade to <b>Morellonomicon</b> as 4th or 5th item).",
       "Items like <b>Morellonomicon</b> or Oblivon Orb are extra effective with this build, thanks to damage over time effects from <b>Liandry's Torment</b>.",
-      "An enemy team has an extremely strong shielding? You can get <b>Serpent's Fang</b> to counter it. It works with your DoTs, meaning shield reduction lasts longer.",
+      "In some rare cases, when an enemy team has an extremely strong shielding, you can even buy <b>Serpent's Fang</b>. It works with your DoTs, meaning shield reduction lasts longer.",
+      "They have lots of melee? Or you just want to kite them? Get <b>Rylai's Crystal Scepter</b>.",
       "Somebody is going after you each fight? Always getting ulted by enemy assassins? Rush <b>Zhonya's Hourglass</b>.",
       "If you are doing well, are ahead and want to have some fun, you can buy <b>The Collector</b> item. It works off your damage over time effects! "
     ],
-    "how to play champion": [
-      "This is the burn version of AP Graves.",
-      "Playstyle is to spam Smoke Screen (<b>W</b>) and Collateral Damage (<b>R</b>) off cooldown and apply the burn effects from <b>Liandry's Torment</b>.",
-      "<b>Imperial Mandate</b> will proc from your Smoke Screen (<b>W</b>) even after it dealt initial damage.",
-      "You can also spam End of the Line (<b>Q</b>), but for this you probably need some mana items (<b>Muramana</b>)."
-    ],
-    "credit": "LuckierLion",
     "tricks champion": [
-      "You do more damage the closer you are to your target.",
-      "Use auto attack reset (AA + <b>Quickdraw (E)</b> + AA). If you time it properly, you can have two almost instant AA for big burst damage.",
-      "Combo for big damage: AA + <b>Q</b> + <b>E</b> + AA."
+      "Keep track of the stacks of your <b>Pyromania (Passive)</b>!",
+      "<b>Disintegrate (Q)</b> has travel time, <b>Incinerate (W)</b> is as instant cast, and <b>Summon: Tibbers (R)</b> is a targeted ability. It means that instant stun that they cannot dodge or site step is <b>W</b>.",
+      "If you are not sure if you will land Tibbers, use <b>Q</b> first to stun them, then use <b>R</b>.",
+      "If you hit somebody with <b>Mark</b> (<b>Snowball</b>) and you go in, it is very telegraphed action. Opponents will expect you to use Tibbers right off. So they will use <b>Flash</b> as soon as you get to them. In such cases, it is better to stun them with <b>Q</b> or <b>W</b>. Followed by Tibbers to destroy them, while they are stunned.",
+      "Preparing to engage? Stack your <b>Pyromania (Passive)</b> with <b>Incinerate (W)</b> and <b>Molten Shield (E)</b>.",
+      "If you want to catch somebody off guard or have better engage, use <b>Molten Shield (E)</b> on yourself for Movement Speed buff beforehand.",
+      "Annie combo #1: you can stun somebody with <b>Disintegrate (Q)</b> with 3 stacks! It has travel time, so during that you can use <b>W</b> or <b>E</b> to get full stacks and <b>Q</b> will still stun them.",
+      "Do not be shy and do not wait for 'special moment'. You have good engaging and catching tool - AoE stun with <b>R</b>. Paired with movement speed buff from <b>E</b> + <b>Flash</b> it is a certain AoE stun and often won fight."
     ],
     "tricks champion riot": [
-      "Smoke Screen can be used both to escape and to set up a kill.",
-      "Using Quickdraw to get into range and delivering a point blank Buckshot can do lots of damage."
+      "Storing a stun for use with her ultimate can turn the tide of a team fight.",
+      "Striking killing blows on minions with Disintegrate enables Annie to farm extremely well early in the game.",
+      "Molten Shield is a good spell to cast to work up to Annie's stun, so sometimes it's beneficial to grab at least 1 rank in it early."
     ]
   },
   "summonerSpells": [
-    "ignite",
+    "mark",
     "flash"
   ],
-  "quickSkillOrder": "wqe",
+  "quickSkillOrder": "qwe",
   "runes": {
     "major": {
       "configuration": [
         "dark",
-        "sudden",
+        "cheap",
         "grisly",
         "ultimate"
       ],
@@ -54,10 +54,10 @@
     },
     "minor": {
       "configuration": [
-        "transcendence",
-        "scorch"
+        "presence",
+        "cut"
       ],
-      "tree": "Sorcery"
+      "tree": "Precision"
     },
     "passive": {
       "configuration": [
@@ -92,29 +92,29 @@
     {
       "description": "For mana problems",
       "items": [
-        "Rod of Ages",
+        "Seraph's Embrace",
         "Tear of the Goddess",
-        "Seraph's Embrace"
+        "Rod of Ages"
       ]
     },
     {
       "description": "Good items",
       "items": [
-        "Malignance",
         "Horizon Focus",
         "Blackfire Torch",
-        "Rabadon's Deathcap",
-        "Riftmaker",
+        "Rylai's Crystal Scepter",
         "Shadowflame",
-        "Imperial Mandate"
+        "Malignance",
+        "Rabadon's Deathcap",
+        "Riftmaker"
       ]
     },
     {
       "description": "Situational items",
       "items": [
+        "Imperial Mandate",
         "Zhonya's Hourglass",
         "Morellonomicon",
-        "Lich Bane",
         "Banshee's Veil"
       ]
     },
@@ -160,20 +160,20 @@
         "<b>Seeker's Armguard</b> - one time use that can win a fight."
       ],
       "items": [
-        "Seeker's Armguard",
+        "Elixir of Iron",
         "Elixir of Sorcery",
-        "Elixir of Iron"
+        "Seeker's Armguard"
       ]
     },
     {
       "description": "Example final build",
       "items": [
-        "Ionian Boots of Lucidity",
+        "Sorcerer's Shoes",
         "Liandry's Torment",
-        "Blackfire Torch",
-        "Void Staff",
+        "Shadowflame",
         "Malignance",
-        "Shadowflame"
+        "Void Staff",
+        "Blackfire Torch"
       ]
     }
   ]

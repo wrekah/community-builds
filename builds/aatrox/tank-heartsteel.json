@@ -1,0 +1,209 @@
+{
+  "id": "tank-heartsteel",
+  "champion": "Aatrox",
+  "sanitizedName": "aatrox",
+  "name": "Heartsteel",
+  "buildType": "tank",
+  "buildCategory": "fun",
+  "difficultyRating": "easy",
+  "info": {
+    "description": "Heartsteel Aatrox ARAM build.",
+    "how it works": [
+      "You play <b>Heartsteel</b> Aatrox.",
+      "You rush <b>Heartsteel</b> #1.",
+      "You are gonna have tons of HP.",
+      "You build items that scale and/or benefit from HP stacking.",
+      "<NESTED>",
+      "And you build Armor and MR tanky items, depending on the situation and adapting to the enemy team.",
+      "</NESTED>"
+    ],
+    "how to play": [
+      "xxx General",
+      "You rush <b>Heartsteel</b> #1 unless it is going to be hard to proc it - they are all ranged and just poke you. Then you start slow with <b>Guardian's Horn</b> instead.",
+      "xxx Item Order",
+      "<b>Item Order after <b>Heartsteel</b> is flexible.</b> You need to see what you need in particular game:",
+      "<NESTED>",
+      "Get Overlord's Bloodmail for more damage and AD.",
+      "Get <b>Warmog's Armor</b> as anti-poke item (helps you stay in lane) and for some sweet HP.",
+      "Get <b>Unending Despair</b>, if there are prolonged fights in which you can stay near enemies (or enemies near you). The items gets better, the more HP you get.",
+      "Get various Armor and/or MR items to counter enemy team.",
+      "Get <b>Titanic Hydra</b> for more fun , more damage and some survivability.",
+      "</NESTED>",
+      "xxx Items",
+      "Sundered Sky is very good damage item for this build (as #2-#4 depending on the game). It scales off your HP (so Grasp, <b>Heartsteel</b>, Overgrowth). It gives damage and pretty good sustain in fights. Remember to switch targets to maximize the effect!",
+      "<b>Guardian's Horn</b> is a surprisingly good item for its price. You can keep it for a very long time (or even have it as 6th item).",
+      "xxx Runes",
+      "<b>Second Wind</b> scales off with your HP, so it is going to be powerful sustain rune. You can use it by purposefully triggering it by letting enemies poke you a little or walking over some harmful spells.",
+      "xxx During game",
+      "Your main damage and power comes from auto attacks - <b>Grasp of the Undying</b>, <b>Heartsteel</b>",
+      "This is auto attack oriented Aatrox build, so do it! Especially if running with <b>Titanic Hydra</b> and Sundered Sky as well.",
+      "You can prioritize switching between champions in the fight, just to farm more <b>Heartsteel</b> procs.",
+      "You need to <b>adapt</b> your items to the game. Enemy team heavy on AP? Buy MR. They heavy on AD? Buy Armor. You need some damage? Well buy that.",
+      "Remember to consume your <b>Heartsteel</b> procs!",
+      "Remember to consume your <b>Grasp of the Undying</b> procs!"
+    ],
+    "how to play champion": [
+      "<b>Heartsteel</b> Aatrox is a very different take on regular Aatrox Bruiser build. Instead of focusing on maxing <b>Q</b>, going AD and casting abilities, you are gonna be tanky and mainly auto-attacking, consuming <b>Grasp of the Undying</b> procs and making use of item procs.",
+      "As <b>Heartsteel</b> Aatrox, you go in, soak damage, disrupt fights and do a lot of auto attacking.",
+      "You can optionally max <b>Q</b> first, if an enemy team has a lot of ranged/poke champs and you cannot go toe to toe.",
+      "Your <b>E</b> <b>resets</b> your auto attack!"
+    ],
+    "tricks champion": [
+      "<b>Q</b> + <b>Flash</b> combos: You can use <b>Flash</b> during any time of <b>The Darkin Blade (Q)</b> animations. You can even combine that with <b>Umbral Dash (E)</b>. You can <b>Flash</b> and <b>Umbral Dash (E)</b> in any direction, making very spectacular and flashy plays.",
+      "You can use <b>Umbral Dash (E)</b> for short dash, this way animation lasts shorter, and you can get crucial milliseconds to auto attack faster (can be deciding a factor in 1v1).",
+      "You can reset your auto attack timer with <b>Umbral Dash (E)</b>. It might be crucial in duels, or when pushing enemy turrets."
+    ],
+    "tricks champion riot": [
+      "Use Umbral Dash while casting The Darkin Blade to increase your chances of hitting the enemy.",
+      "Crowd Control abilities like Infernal Chains or your allies' immobilizing effects will help you set up The Darkin Blade.",
+      "Cast World Ender when you are sure you can force a fight."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "eqw",
+  "runes": {
+    "major": {
+      "configuration": [
+        "grasp",
+        "font",
+        "second",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "triumph",
+        "alacrity"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "as",
+        "scaling_hp",
+        "tenacity_slow_resist"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Giant's Belt",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Starting items vs poke",
+      "items": [
+        "Guardian's Horn",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Ionian Boots of Lucidity",
+        "Plated Steelcaps",
+        "Mercury's Treads"
+      ]
+    },
+    {
+      "description": "Rush this",
+      "items": [
+        "Heartsteel"
+      ]
+    },
+    {
+      "description": "Core items",
+      "items": [
+        "Overlord's Bloodmail",
+        "Heartsteel",
+        "Unending Despair",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "description": "Dmg items",
+      "tooltip": [
+        "If you need damage, consider below items:",
+        "<b>Titanic Hydra</b> - most universal damage item.",
+        "<b>Sundered Sky</b> - pretty good item that scales off your HP, gives damage and pretty good sustain in fights",
+        "<b>Wit's End</b> - situational item vs high AP damage + you need damage and some attack speed.",
+        "<b>Blade of The Ruined King</b> - situational item vs high HP tanks.",
+        "<b>Sterak's Gage</b> - situational item for survivability, if you cannot survive burst."
+      ],
+      "items": [
+        "Sterak's Gage",
+        "Titanic Hydra",
+        "Blade of The Ruined King",
+        "Wit's End",
+        "Sundered Sky"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Jak'Sho, The Protean"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Hollow Radiance",
+        "Kaenic Rookern",
+        "Force of Nature",
+        "Spirit Visage",
+        "Abyssal Mask"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Randuin's Omen",
+        "Dead Man's Plate",
+        "Unending Despair",
+        "Iceborn Gauntlet",
+        "Thornmail",
+        "Sunfire Aegis"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Trailblazer",
+        "Knight's Vow"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "Cappa Juice - if you have tons of gold and want to be fashionable.",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath",
+        "Cappa Juice"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Plated Steelcaps",
+        "Heartsteel",
+        "Overlord's Bloodmail",
+        "Kaenic Rookern",
+        "Thornmail",
+        "Warmog's Armor"
+      ]
+    }
+  ]
+}

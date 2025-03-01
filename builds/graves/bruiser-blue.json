@@ -1,0 +1,178 @@
+{
+  "id": "bruiser-blue",
+  "champion": "Graves",
+  "sanitizedName": "graves",
+  "name": "Blue",
+  "buildType": "bruiser",
+  "buildCategory": "fun",
+  "fantasy": "Being blue",
+  "info": {
+    "description": "Blue Graves build. Kite and tank enemies, while doing good damage.",
+    "how it works": [
+      "You go Blue color items!",
+      "You slow, kite and deal damage."
+    ],
+    "how to play": [
+      "It is all about being Blue!",
+      "As Graves playing Blue build you will have good kitting (thanks to <b>Iceborn Gauntlet</b> and tons of Ability Haste) and good damage (<b>BoTRK</b>, Titanic, <b>Muramana</b>). Play like bruiser, but remember that you will be squishy early game and more tanky later on.",
+      "You have two rush options. Either rush <b>Titanic Hydra</b> or <b>Iceborn Gauntlet</b>. <b>Titanic Hydra</b> for more damage, <b>Iceborn Gauntlet</b> for more tankiness. Also you can try <b>BoTRK</b> for this build.",
+      "You can go more tanky or more damage, depending on the enemy team. Adapt!",
+      "With <b>Font of Life</b>, you will be healing your allies.",
+      "Remember to consume your <b>Grasp of the Undying</b> procs."
+    ],
+    "tricks champion": [
+      "You do more damage the closer you are to your target.",
+      "Use auto attack reset (AA + <b>Quickdraw (E)</b> + AA). If you time it properly, you can have two almost instant AA for big burst damage.",
+      "Combo for big damage: AA + <b>Q</b> + <b>E</b> + AA."
+    ],
+    "tricks champion riot": [
+      "Smoke Screen can be used both to escape and to set up a kill.",
+      "Using Quickdraw to get into range and delivering a point blank Buckshot can do lots of damage."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "qew",
+  "runes": {
+    "major": {
+      "configuration": [
+        "grasp",
+        "font",
+        "second",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "presence",
+        "alacrity"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "as",
+        "scaling_hp",
+        "tenacity_slow_resist"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Sheen",
+        "Tear of the Goddess"
+      ]
+    },
+    {
+      "description": "Starting items for dmg",
+      "items": [
+        "Tiamat"
+      ]
+    },
+    {
+      "description": "Rush #1 in general",
+      "items": [
+        "Iceborn Gauntlet"
+      ]
+    },
+    {
+      "description": "Rush #1 for damage",
+      "items": [
+        "Titanic Hydra"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Mercury's Treads",
+        "Ionian Boots of Lucidity",
+        "Plated Steelcaps"
+      ]
+    },
+    {
+      "description": "Good damage items",
+      "items": [
+        "Titanic Hydra",
+        "Serylda's Grudge",
+        "Navori Flickerblade",
+        "Muramana"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Warmog's Armor",
+        "Jak'Sho, The Protean",
+        "Overlord's Bloodmail"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Iceborn Gauntlet",
+        "Frozen Heart",
+        "Dead Man's Plate",
+        "Randuin's Omen",
+        "Thornmail"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Maw of Malmortius",
+        "Wit's End",
+        "Spirit Visage",
+        "Force of Nature",
+        "Kaenic Rookern"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "tooltip": [
+        "If you need damage, consider below items:",
+        "<b>Warmog's Armor</b> - good item when you need some form of sustain or when they have strong poke.",
+        "<b>Chempunk Chainsword</b> - situational item vs healing champs, note: usually just rush/get early Executioner's Calling",
+        "<b>Serpent's Fang</b> - situational item to counter shields. Usually to be effective, you need to get it early as #2 or #3 item.",
+        "<b>Mercurial Scimitar</b> - situational item vs Malzahar, Mordekaiser, Zed and others.",
+        "<b>Blade of The Ruined King</b> - fun item for damage when ahead, if you want to play really 'Blue' build.",
+        "<b>Zhonya's Hourglass</b> - situational item for survivability, if you cannot survive burst."
+      ],
+      "items": [
+        "Mercurial Scimitar",
+        "Chempunk Chainsword",
+        "Zhonya's Hourglass",
+        "Warmog's Armor",
+        "Serpent's Fang"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Ionian Boots of Lucidity",
+        "Iceborn Gauntlet",
+        "Titanic Hydra",
+        "Serylda's Grudge",
+        "Muramana",
+        "Frozen Heart"
+      ]
+    }
+  ]
+}

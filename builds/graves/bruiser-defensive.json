@@ -1,0 +1,164 @@
+{
+  "id": "bruiser-defensive",
+  "champion": "Graves",
+  "sanitizedName": "graves",
+  "name": "Bruiser",
+  "buildType": "bruiser",
+  "buildCategory": "fun",
+  "info": {
+    "description": "Bruiser Graves build for ARAM with Grasp of the Undying.",
+    "how it works": [
+      "You play as Graves Bruiser.",
+      "Your build is survivability oriented. With some damage and tons of HP and defense.",
+      "You auto attack a lot."
+    ],
+    "how to play": [
+      "As Graves playing Bruiser build - you need ot <b>adapt</b> to an enemy team and to the game! Enemy team heavy on AP? Buy MR. Are they heavy on AD? Buy Armor. You need some damage? Well buy that.",
+      "Remember to consume your <b>Grasp of the Undying</b> procs!"
+    ],
+    "tricks champion": [
+      "You do more damage the closer you are to your target.",
+      "Use auto attack reset (AA + <b>Quickdraw (E)</b> + AA). If you time it properly, you can have two almost instant AA for big burst damage.",
+      "Combo for big damage: AA + <b>Q</b> + <b>E</b> + AA."
+    ],
+    "tricks champion riot": [
+      "Smoke Screen can be used both to escape and to set up a kill.",
+      "Using Quickdraw to get into range and delivering a point blank Buckshot can do lots of damage."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "qew",
+  "runes": {
+    "major": {
+      "configuration": [
+        "grasp",
+        "demolish",
+        "second",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "triumph",
+        "alacrity"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "as",
+        "scaling_hp",
+        "tenacity_slow_resist"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Tunneler"
+      ]
+    },
+    {
+      "description": "Starting items vs poke",
+      "items": [
+        "Guardian's Horn",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Plated Steelcaps",
+        "Mercury's Treads",
+        "Ionian Boots of Lucidity"
+      ]
+    },
+    {
+      "description": "Good damage items",
+      "items": [
+        "Black Cleaver",
+        "Sundered Sky",
+        "Stridebreaker",
+        "Experimental Hexplate",
+        "Titanic Hydra"
+      ]
+    },
+    {
+      "description": "Bruiser defensive items",
+      "items": [
+        "Death's Dance",
+        "Sterak's Gage",
+        "Overlord's Bloodmail"
+      ]
+    },
+    {
+      "description": "Situational damage items",
+      "items": [
+        "Blade of The Ruined King",
+        "Wit's End"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Jak'Sho, The Protean",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Spirit Visage",
+        "Kaenic Rookern",
+        "Force of Nature"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Iceborn Gauntlet",
+        "Dead Man's Plate",
+        "Thornmail",
+        "Randuin's Omen",
+        "Frozen Heart"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Knight's Vow",
+        "Trailblazer",
+        "Zeke's Convergence"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Mercury's Treads",
+        "Sundered Sky",
+        "Overlord's Bloodmail",
+        "Spirit Visage",
+        "Force of Nature",
+        "Death's Dance"
+      ]
+    }
+  ]
+}

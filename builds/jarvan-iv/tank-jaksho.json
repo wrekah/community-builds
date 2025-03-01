@@ -1,0 +1,157 @@
+{
+  "id": "tank-jaksho",
+  "champion": "Jarvan IV",
+  "sanitizedName": "jarvan-iv",
+  "name": "Tank",
+  "buildType": "tank",
+  "buildCategory": "meta",
+  "info": {
+    "description": "Tank Jarvan IV ARAM build with Jak'Sho. Get tanky and adapt to enemy team!",
+    "how to play": [
+      "You start with <b>Guardian's Horn</b>. Your #1 rush should be item that counters enemy team most (MR or Armor item). Get <b>Jak'Sho</b> as #2 item. Then <b>adapt</b>.",
+      "<b>Triumph</b> is better overall (heal + gold), but if you want to have easier time with your mana, go Presence of the Mind.",
+      "<b>Guardian's Horn</b> is a surprisingly good item for its price. You can keep it for very long time (or even have it as 6th item).",
+      "You need to <b>adapt</b> your items to the game. Enemy team heavy on AP? Buy MR. They heavy on AD? Buy Armor. You need some damage? Well buy that.",
+      "Be careful to not waste Aftershock. Try timing it and keeping it for going in."
+    ],
+    "tricks champion": [
+      "You can use <b>Demacian Standard (E)</b> for brush control.",
+      "Remember that <b>Dragon Strike (Q)</b> reduces target's armor!",
+      "Switch targets often in fights to fully use your <b>Martial Cadence (Passive)</b> for more damage!",
+      "Combo #1: <b>Q</b> + <b>E</b> + <b>Flash</b>. Just <b>Q</b> + <b>E</b> and during the last frames of animation, you can <b>Flash</b> into enemy knocking them up.",
+      "Combo #2: If you have enough Ability Haste, you can put <b>E</b>, wait and <b>Q</b> to it and cast second <b>E</b> hitting your target. This is especially cool with AP builds. So you can cast <b>E</b> while sliding to existing <b>E</b>."
+    ],
+    "tricks champion riot": [
+      "You can use the Dragon Strike / Demacian Standard combo to get out of your own Cataclysm arenas.",
+      "Split your basic attacks on different champions at the beginning of fights to maximize damage.",
+      "Use Demacian Standard as a scouting tool when worried about incoming enemies."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "qew",
+  "runes": {
+    "major": {
+      "configuration": [
+        "aftershock",
+        "shield",
+        "second",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "triumph",
+        "alacrity"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "haste",
+        "scaling_hp",
+        "tenacity_slow_resist"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Guardian's Horn",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Plated Steelcaps",
+        "Ionian Boots of Lucidity",
+        "Mercury's Treads"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Fimbulwinter",
+        "Warmog's Armor",
+        "Jak'Sho, The Protean"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Spirit Visage",
+        "Abyssal Mask",
+        "Force of Nature",
+        "Hollow Radiance",
+        "Kaenic Rookern"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Randuin's Omen",
+        "Sunfire Aegis",
+        "Unending Despair",
+        "Frozen Heart",
+        "Thornmail",
+        "Iceborn Gauntlet",
+        "Dead Man's Plate"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Zeke's Convergence",
+        "Trailblazer",
+        "Knight's Vow"
+      ]
+    },
+    {
+      "description": "Situational DMG items",
+      "tooltip": [
+        "If you need damage, consider below items:",
+        "<b>Titanic Hydra</b> - most universal damage item.",
+        "<b>Overlord's Bloodmail</b> - new item that works nicely with this build.",
+        "<b>Wit's End</b> - situational item vs high AP damage + you need damage and some attack speed.",
+        "<b>Blade of The Ruined King</b> - situational item vs high HP tanks.",
+        "<b>Sterak's Gage</b> - situational item for survivability, if you cannot survive burst."
+      ],
+      "items": [
+        "Blade of The Ruined King",
+        "Sterak's Gage",
+        "Overlord's Bloodmail",
+        "Titanic Hydra",
+        "Wit's End"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Mercury's Treads",
+        "Jak'Sho, The Protean",
+        "Unending Despair",
+        "Hollow Radiance",
+        "Thornmail",
+        "Force of Nature"
+      ]
+    }
+  ]
+}

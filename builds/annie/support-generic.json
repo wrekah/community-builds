@@ -1,0 +1,197 @@
+{
+  "id": "support-generic",
+  "champion": "Annie",
+  "sanitizedName": "annie",
+  "name": "Support",
+  "buildType": "support",
+  "buildCategory": "off-meta",
+  "info": {
+    "description": "Support Annie build for ARAM with Moonstone Renewer.",
+    "how it works": [
+      "You support your Team providing Healing, Shielding and various Buffs.",
+      "You rush <b>Moonstone Renewer</b>.",
+      "You can peel from your carries with Exhaust."
+    ],
+    "how to play": [
+      "You need to <b>adapt</b> in the game to your team and to the enemy team.",
+      "Your team needs to engage? Get items like <b>Shurelya's Battlesong</b> or Trailblazer.",
+      "Your team getting poked to death? Consider getting <b>Redemption</b> AND/OR <b>Locket of the Iron Solari</b>",
+      "If you are just getting poked and cannot manage to stay alive - get <b>Kaenic Rookern</b> or <b>Warmog's Armor</b> (caution: needs enough HP!)",
+      "You have tanks, bruisers and your team lack damage? As a last resort, you can buy few items to even help with that!",
+      "Remember to counter an enemy team. For example, if they have lots of healing, get <b>Oblivion Orb</b> early."
+    ],
+    "how to play champion": [
+      "You will heal your allies with <b>Font of Life</b> rune. Getting <b>Rylai's Crystal Scepter</b> will make your Tibbers healer as well (AoE aura)!",
+      "Mid-late game, your <b>Molten Shield (E)</b> will have about 4 sec cooldown. Spam it.",
+      "Early on, this build struggles with mana. Stack Tears (<b>Disintegrate (Q)</b> on minions). After one item and stacked Tear, you will be fine!"
+    ],
+    "tricks champion": [
+      "Keep track of the stacks of your <b>Pyromania (Passive)</b>!",
+      "<b>Disintegrate (Q)</b> has travel time, <b>Incinerate (W)</b> is as instant cast, and <b>Summon: Tibbers (R)</b> is a targeted ability. It means that instant stun that they cannot dodge or site step is <b>W</b>.",
+      "If you are not sure if you will land Tibbers, use <b>Q</b> first to stun them, then use <b>R</b>.",
+      "If you hit somebody with <b>Mark</b> (<b>Snowball</b>) and you go in, it is very telegraphed action. Opponents will expect you to use Tibbers right off. So they will use <b>Flash</b> as soon as you get to them. In such cases, it is better to stun them with <b>Q</b> or <b>W</b>. Followed by Tibbers to destroy them, while they are stunned.",
+      "Preparing to engage? Stack your <b>Pyromania (Passive)</b> with <b>Incinerate (W)</b> and <b>Molten Shield (E)</b>.",
+      "If you want to catch somebody off guard or have better engage, use <b>Molten Shield (E)</b> on yourself for Movement Speed buff beforehand.",
+      "Annie combo #1: you can stun somebody with <b>Disintegrate (Q)</b> with 3 stacks! It has travel time, so during that you can use <b>W</b> or <b>E</b> to get full stacks and <b>Q</b> will still stun them.",
+      "Do not be shy and do not wait for 'special moment'. You have good engaging and catching tool - AoE stun with <b>R</b>. Paired with movement speed buff from <b>E</b> + <b>Flash</b> it is a certain AoE stun and often won fight."
+    ],
+    "tricks champion riot": [
+      "Storing a stun for use with her ultimate can turn the tide of a team fight.",
+      "Striking killing blows on minions with Disintegrate enables Annie to farm extremely well early in the game.",
+      "Molten Shield is a good spell to cast to work up to Annie's stun, so sometimes it's beneficial to grab at least 1 rank in it early."
+    ]
+  },
+  "summonerSpells": [
+    "exhaust",
+    "flash"
+  ],
+  "quickSkillOrder": "eqw",
+  "runes": {
+    "major": {
+      "configuration": [
+        "summon",
+        "manaflow",
+        "transcendence",
+        "scorch"
+      ],
+      "tree": "Sorcery"
+    },
+    "minor": {
+      "configuration": [
+        "font",
+        "revitalize"
+      ],
+      "tree": "Resolve"
+    },
+    "passive": {
+      "configuration": [
+        "haste",
+        "adaptive",
+        "hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Bandleglass Mirror",
+        "Tear of the Goddess"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Ionian Boots of Lucidity"
+      ]
+    },
+    {
+      "description": "For mana problems",
+      "items": [
+        "Tear of the Goddess",
+        "Seraph's Embrace"
+      ]
+    },
+    {
+      "description": "Rush this",
+      "items": [
+        "Moonstone Renewer"
+      ]
+    },
+    {
+      "description": "Good support items",
+      "items": [
+        "Staff of Flowing Water",
+        "Dawncore",
+        "Echoes of Helia"
+      ]
+    },
+    {
+      "description": "Counter poke",
+      "items": [
+        "Locket of the Iron Solari",
+        "Kaenic Rookern",
+        "Banshee's Veil",
+        "Redemption",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "description": "For engage",
+      "items": [
+        "Shurelya's Battlesong",
+        "Trailblazer"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "tooltip": [
+        "<b>Ardent Censer</b> - you have auto attackers in your team.",
+        "<b>Mikael's Blessing</b> - you have strong carry on your team + coordination required.",
+        "<b>Knight's Vow</b> - you have strong bruiser/tank/carry + if you can stay close.",
+        "<b>Rylai's Crystal Scepter</b> - situational item vs lots of melee for kiting"
+      ],
+      "items": [
+        "Rylai's Crystal Scepter",
+        "Knight's Vow",
+        "Ardent Censer",
+        "Mikael's Blessing"
+      ]
+    },
+    {
+      "description": "Counter healing",
+      "items": [
+        "Oblivion Orb",
+        "Morellonomicon"
+      ]
+    },
+    {
+      "description": "Situational dmg items",
+      "items": [
+        "Rod of Ages",
+        "Rabadon's Deathcap",
+        "Liandry's Torment",
+        "Cosmic Drive",
+        "Echoes of Helia",
+        "Cryptbloom",
+        "Imperial Mandate"
+      ]
+    },
+    {
+      "description": "For survivability",
+      "items": [
+        "Frozen Heart",
+        "Spirit Visage",
+        "Zhonya's Hourglass",
+        "Kaenic Rookern",
+        "Banshee's Veil"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Sorcery</b> - more AP/mana regen.",
+        "<b>Seeker's Armguard</b> - one time use that can win a fight."
+      ],
+      "items": [
+        "Elixir of Sorcery",
+        "Seeker's Armguard",
+        "Elixir of Iron"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Ionian Boots of Lucidity",
+        "Moonstone Renewer",
+        "Redemption",
+        "Staff of Flowing Water",
+        "Echoes of Helia",
+        "Dawncore"
+      ]
+    }
+  ]
+}

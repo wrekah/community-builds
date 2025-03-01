@@ -1,0 +1,24 @@
+{
+  "name": "Annie",
+  "sanitizedName": "annie",
+  "customTips": [
+    "Keep track of the stacks of your xP!",
+    "xQ has travel time, xW is as instant cast, and xR is a targeted ability. It means that instant stun that they cannot dodge or site step is W.",
+    "If you are not sure if you will land Tibbers, use Q first to stun them, then use R.",
+    "If you hit somebody with Mark (Snowball) and you go in, it is very telegraphed action. Opponents will expect you to use Tibbers right off. So they will use Flash as soon as you get to them. In such cases, it is better to stun them with Q or W. Followed by Tibbers to destroy them, while they are stunned.",
+    "Preparing to engage? Stack your xP with xW and xE.",
+    "If you want to catch somebody off guard or have better engage, use xE on yourself for Movement Speed buff beforehand.",
+    "Annie combo #1: you can stun somebody with xQ with 3 stacks! It has travel time, so during that you can use W or E to get full stacks and Q will still stun them.",
+    "Do not be shy and do not wait for 'special moment'. You have good engaging and catching tool - AoE stun with R. Paired with movement speed buff from E + Flash it is a certain AoE stun and often won fight."
+  ],
+  "officialAllyTips": [
+    "Storing a stun for use with her ultimate can turn the tide of a team fight.",
+    "Striking killing blows on minions with Disintegrate enables Annie to farm extremely well early in the game.",
+    "Molten Shield is a good spell to cast to work up to Annie's stun, so sometimes it's beneficial to grab at least 1 rank in it early."
+  ],
+  "officialEnemyTips": [
+    "Annie's summoned bear, Tibbers, burns opposing units around himself. Try to keep your distance from him after he's been summoned.",
+    "Summoner Smite can be used to help take down Tibbers.",
+    "Keep an eye out for a white, swirling power around Annie. It means she's ready to unleash her stun."
+  ]
+}

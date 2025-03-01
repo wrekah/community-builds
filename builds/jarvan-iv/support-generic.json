@@ -1,0 +1,194 @@
+{
+  "id": "support-generic",
+  "champion": "Jarvan IV",
+  "sanitizedName": "jarvan-iv",
+  "name": "Support",
+  "buildType": "support",
+  "buildCategory": "fun",
+  "info": {
+    "description": "Support Jarvan IV build for ARAM with Moonstone Renewer.",
+    "how it works": [
+      "You support your Team providing Healing, Shielding and various Buffs.",
+      "You rush <b>Moonstone Renewer</b>.",
+      "You can peel from your carries with Exhaust."
+    ],
+    "how to play": [
+      "You need to <b>adapt</b> in the game to your team and to the enemy team.",
+      "You can get <b>Mark</b> (<b>Snowball</b>) summoner instead of Exhaust if you want to play more aggressive and to go in.",
+      "You will be squishy early on, and if you don't go some tanky items later. Be careful!",
+      "Your team needs to engage? Get items like <b>Shurelya's Battlesong</b> or Trailblazer.",
+      "Your team getting poked to death? Consider getting <b>Redemption</b> AND/OR <b>Locket of the Iron Solari</b>",
+      "If you are just getting poked and cannot manage to stay alive - get <b>Kaenic Rookern</b> or <b>Warmog's Armor</b> (caution: needs enough HP!)",
+      "You have tanks, bruisers and your team lack damage? As a last resort, you can buy few items to even help with that!",
+      "Remember to counter an enemy team. For example, if they have lots of healing, get Executioner's Calling early."
+    ],
+    "how it works champion": [
+      "Your <b>Demacian Standard (E)</b> triggers Summon Aery shields!",
+      "You can help your team kill tanky champions by using Dragon Strike (<b>Q</b>) on them. It reduces target's armor!"
+    ],
+    "how to play champion": [
+      "You can have 100% uptime on <b>E</b> (with some Ability Haste), meaning you will be shielding/healing/buffing your team all the time.",
+      "Cast <b>E</b> near your team if you want shield/heal/buff them.",
+      "<b>E</b> gives vision, so you can scout bushes.",
+      "Play safe, like support for the most part and stay back. Look for opportunities to catch/engage enemies, but be careful, because you are squishy with this build.",
+      "Cool combo is <b>R</b> enemies + <b>Flash</b> or <b>R</b> enemies + <b>E</b> + <b>Q</b> away.",
+      "You can play Aery ping pong to maximize uptime. Just come close to whoever got it, to get it back. This way you will maximize the number of shields.",
+      "If you want to shield a specific person, just cast <b>E</b> closest to them."
+    ],
+    "tricks champion": [
+      "You can use <b>Demacian Standard (E)</b> for brush control.",
+      "Remember that <b>Dragon Strike (Q)</b> reduces target's armor!",
+      "Switch targets often in fights to fully use your <b>Martial Cadence (Passive)</b> for more damage!",
+      "Combo #1: <b>Q</b> + <b>E</b> + <b>Flash</b>. Just <b>Q</b> + <b>E</b> and during the last frames of animation, you can <b>Flash</b> into enemy knocking them up.",
+      "Combo #2: If you have enough Ability Haste, you can put <b>E</b>, wait and <b>Q</b> to it and cast second <b>E</b> hitting your target. This is especially cool with AP builds. So you can cast <b>E</b> while sliding to existing <b>E</b>."
+    ],
+    "tricks champion riot": [
+      "You can use the Dragon Strike / Demacian Standard combo to get out of your own Cataclysm arenas.",
+      "Split your basic attacks on different champions at the beginning of fights to maximize damage.",
+      "Use Demacian Standard as a scouting tool when worried about incoming enemies."
+    ]
+  },
+  "summonerSpells": [
+    "exhaust",
+    "flash"
+  ],
+  "quickSkillOrder": "eqw",
+  "runes": {
+    "major": {
+      "configuration": [
+        "summon",
+        "manaflow",
+        "transcendence",
+        "scorch"
+      ],
+      "tree": "Sorcery"
+    },
+    "minor": {
+      "configuration": [
+        "font",
+        "revitalize"
+      ],
+      "tree": "Resolve"
+    },
+    "passive": {
+      "configuration": [
+        "haste",
+        "adaptive",
+        "hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Bandleglass Mirror",
+        "Tear of the Goddess"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Ionian Boots of Lucidity"
+      ]
+    },
+    {
+      "description": "For mana problems",
+      "items": [
+        "Tear of the Goddess",
+        "Fimbulwinter"
+      ]
+    },
+    {
+      "description": "Rush this",
+      "items": [
+        "Moonstone Renewer"
+      ]
+    },
+    {
+      "description": "Good support items",
+      "items": [
+        "Dawncore",
+        "Echoes of Helia",
+        "Staff of Flowing Water"
+      ]
+    },
+    {
+      "description": "Counter poke",
+      "items": [
+        "Banshee's Veil",
+        "Kaenic Rookern",
+        "Warmog's Armor",
+        "Locket of the Iron Solari",
+        "Redemption"
+      ]
+    },
+    {
+      "description": "For engage",
+      "items": [
+        "Shurelya's Battlesong",
+        "Trailblazer"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "tooltip": [
+        "<b>Ardent Censer</b> - you have auto attackers in your team.",
+        "<b>Mikael's Blessing</b> - you have strong carry on your team + coordination required.",
+        "<b>Knight's Vow</b> - you have strong bruiser/tank/carry + if you can stay close.",
+        "<b>Rylai's Crystal Scepter</b> - situational item vs lots of melee for kiting"
+      ],
+      "items": [
+        "Ardent Censer",
+        "Knight's Vow",
+        "Mikael's Blessing",
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "description": "Counter healing",
+      "items": [
+        "Oblivion Orb",
+        "Morellonomicon"
+      ]
+    },
+    {
+      "description": "For survivability",
+      "items": [
+        "Spirit Visage",
+        "Jak'Sho, The Protean",
+        "Frozen Heart",
+        "Banshee's Veil",
+        "Kaenic Rookern",
+        "Abyssal Mask",
+        "Zhonya's Hourglass"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage.",
+        "<b>Seeker's Armguard</b> - one time use that can win a fight."
+      ],
+      "items": [
+        "Elixir of Wrath",
+        "Elixir of Iron",
+        "Seeker's Armguard"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Ionian Boots of Lucidity",
+        "Moonstone Renewer",
+        "Redemption",
+        "Staff of Flowing Water",
+        "Echoes of Helia",
+        "Dawncore"
+      ]
+    }
+  ]
+}

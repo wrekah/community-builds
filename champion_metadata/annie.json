@@ -1,0 +1,66 @@
+{
+  "name": "Annie",
+  "sanitizedName": "annie",
+  "officialTags": [
+    "Mage"
+  ],
+  "roles": [
+    "BURST",
+    "MAGE"
+  ],
+  "resource": "MANA",
+  "attackType": "RANGED",
+  "adaptiveType": "MAGIC_DAMAGE",
+  "hasHardCC": true,
+  "hasSlows": false,
+  "hasShielding": true,
+  "hasSelfHeal": false,
+  "hasHealing": false,
+  "isGoodUser": [
+    "Malignance"
+  ],
+  "orders": {
+    "ad": "eqw",
+    "adc": "eqw",
+    "ap": "qwe",
+    "bruiser": "eqw",
+    "support": "eqw",
+    "tank": "eqw"
+  },
+  "summonerSpells": {
+    "ap": "mark",
+    "tank": "mark"
+  },
+  "customizations": {
+    "bruiser-hydra": {
+      "how to play": [
+        "Annie has a massive auto attack range. Use this with Titanic Hydra Active to poke from very far."
+      ]
+    },
+    "support-generic": {
+      "how to play": [
+        "You will heal your allies with Font of Life rune. Getting Rylai's Crystal Scepter will make your Tibbers healer as well (AoE aura)!",
+        "Mid-late game, your xE will have about 4 sec cooldown. Spam it.",
+        "Early on, this build struggles with mana. Stack Tears (xQ on minions). After one item and stacked Tear, you will be fine!"
+      ],
+      "isGoodUser": [
+        "Echoes of Helia"
+      ]
+    },
+    "support-imperial-mandate": {
+      "isGoodUser": [
+        "RYLAI_RUSH"
+      ]
+    },
+    "ap-mage-burn": {
+      "isGoodUser": [
+        "Malignance"
+      ]
+    },
+    "ap-mage-poke": {
+      "isGoodUser": [
+        "Stormsurge"
+      ]
+    }
+  }
+}

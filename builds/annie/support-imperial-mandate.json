@@ -1,0 +1,194 @@
+{
+  "id": "support-imperial-mandate",
+  "champion": "Annie",
+  "sanitizedName": "annie",
+  "name": "Imperial Mandate",
+  "buildType": "support",
+  "buildCategory": "fun",
+  "info": {
+    "description": "Imperial Mandate Annie build for ARAM that's all about slowing and disrupting fights.",
+    "how it works": [
+      "This build is all about <b>Imperial Mandate</b>.",
+      "And also all about slows.",
+      "You support through disrupting fights, being annoying, Slowing/Healing/Buffing and soaking damage."
+    ],
+    "how to play": [
+      "You rush <b>Rylai's Crystal Scepter</b>, then <b>Imperial Mandate</b>.",
+      "Your CC triggers Glacial Augument that slows AOE. All Slows trigger <b>Font of Life</b> AND <b>Imperial Mandate</b>, healing and buffing your allies.",
+      "Since LoL Patch 14.1 <b>Imperial Mandate</b> is changed. Now you need your team to proc it to deal any damage. So you need to play a little bit differently. Do not spam mindlessly. Try coordinating it with your team - when they are about to poke or when they go in.",
+      "<b>Font of Life</b> heal can trigger various support items, like <b>Ardent Censer</b> or <b>Staff of Flowing Water</b> or even <b>Moonstone Renewer</b>!",
+      "You need to <b>adapt</b> your items to the game. Enemy team heavy on AP? Buy MR. They heavy on AD? Buy Armor. You need some damage? Well buy that."
+    ],
+    "tricks champion": [
+      "Keep track of the stacks of your <b>Pyromania (Passive)</b>!",
+      "<b>Disintegrate (Q)</b> has travel time, <b>Incinerate (W)</b> is as instant cast, and <b>Summon: Tibbers (R)</b> is a targeted ability. It means that instant stun that they cannot dodge or site step is <b>W</b>.",
+      "If you are not sure if you will land Tibbers, use <b>Q</b> first to stun them, then use <b>R</b>.",
+      "If you hit somebody with <b>Mark</b> (<b>Snowball</b>) and you go in, it is very telegraphed action. Opponents will expect you to use Tibbers right off. So they will use <b>Flash</b> as soon as you get to them. In such cases, it is better to stun them with <b>Q</b> or <b>W</b>. Followed by Tibbers to destroy them, while they are stunned.",
+      "Preparing to engage? Stack your <b>Pyromania (Passive)</b> with <b>Incinerate (W)</b> and <b>Molten Shield (E)</b>.",
+      "If you want to catch somebody off guard or have better engage, use <b>Molten Shield (E)</b> on yourself for Movement Speed buff beforehand.",
+      "Annie combo #1: you can stun somebody with <b>Disintegrate (Q)</b> with 3 stacks! It has travel time, so during that you can use <b>W</b> or <b>E</b> to get full stacks and <b>Q</b> will still stun them.",
+      "Do not be shy and do not wait for 'special moment'. You have good engaging and catching tool - AoE stun with <b>R</b>. Paired with movement speed buff from <b>E</b> + <b>Flash</b> it is a certain AoE stun and often won fight."
+    ],
+    "tricks champion riot": [
+      "Storing a stun for use with her ultimate can turn the tide of a team fight.",
+      "Striking killing blows on minions with Disintegrate enables Annie to farm extremely well early in the game.",
+      "Molten Shield is a good spell to cast to work up to Annie's stun, so sometimes it's beneficial to grab at least 1 rank in it early."
+    ]
+  },
+  "summonerSpells": [
+    "exhaust",
+    "flash"
+  ],
+  "quickSkillOrder": "eqw",
+  "runes": {
+    "major": {
+      "configuration": [
+        "glacial",
+        "cash",
+        "triple",
+        "cosmic"
+      ],
+      "tree": "Inspiration"
+    },
+    "minor": {
+      "configuration": [
+        "font",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "passive": {
+      "configuration": [
+        "haste",
+        "adaptive",
+        "hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Giant's Belt",
+        "Tear of the Goddess"
+      ]
+    },
+    {
+      "description": "Rush this #1",
+      "items": [
+        "Rylai's Crystal Scepter"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Ionian Boots of Lucidity"
+      ]
+    },
+    {
+      "description": "Good support items",
+      "tooltip": [
+        "<b>Ardent Censer</b> - buy it if you have auto attackers in your team.",
+        "<b>Staff of Flowing Water</b> - your <b>Font of Life</b> heal will trigger it, universal, even better if you have AP on your team.",
+        "<b>Redemption</b> - universal item, if you need sustain or anti-poke.",
+        "<b>Moonstone Renewer</b> - kind of universal item, if your team members actually use auto attacks on your slowed targets. Check your <b>Font of Life</b> value around ~10 min mark to see if it is worth it.",
+        "<b>Shurelya's Battlesong</b> - universal item, for engaging or for running away.",
+        "<b>Locket of the Iron Solari</b> - universal item, for anti-poke."
+      ],
+      "items": [
+        "Locket of the Iron Solari",
+        "Redemption",
+        "Shurelya's Battlesong",
+        "Staff of Flowing Water",
+        "Moonstone Renewer",
+        "Ardent Censer"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Jak'Sho, The Protean",
+        "Warmog's Armor",
+        "Fimbulwinter",
+        "Knight's Vow"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Kaenic Rookern",
+        "Spirit Visage",
+        "Force of Nature"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Randuin's Omen",
+        "Thornmail",
+        "Dead Man's Plate",
+        "Iceborn Gauntlet",
+        "Frozen Heart"
+      ]
+    },
+    {
+      "description": "For mana problems",
+      "items": [
+        "Tear of the Goddess",
+        "Seraph's Embrace"
+      ]
+    },
+    {
+      "description": "Situational dmg items",
+      "items": [
+        "Blackfire Torch",
+        "Rod of Ages",
+        "Cryptbloom",
+        "Cosmic Drive",
+        "Liandry's Torment",
+        "Echoes of Helia",
+        "Zhonya's Hourglass",
+        "Rabadon's Deathcap"
+      ]
+    },
+    {
+      "description": "Counter healing",
+      "items": [
+        "Oblivion Orb",
+        "Morellonomicon"
+      ]
+    },
+    {
+      "description": "Counter shielding",
+      "items": [
+        "Serpent's Fang"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be last fight:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Sorcery</b> - more AP/mana regen.",
+        "<b>Seeker's Armguard</b> - one time use that can win a fight."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Sorcery",
+        "Seeker's Armguard"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Ionian Boots of Lucidity",
+        "Imperial Mandate",
+        "Morellonomicon",
+        "Kaenic Rookern",
+        "Rylai's Crystal Scepter",
+        "Spirit Visage"
+      ]
+    }
+  ]
+}

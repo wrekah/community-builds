@@ -1,0 +1,140 @@
+{
+  "id": "tank-thornmail",
+  "champion": "Graves",
+  "sanitizedName": "graves",
+  "name": "Thornmail",
+  "buildType": "tank",
+  "buildCategory": "fun",
+  "fantasy": "Spikey",
+  "info": {
+    "description": "Thornmail Graves build for ARAM. Counter physical damage, stack Armor or don't play at all!",
+    "how it works": [
+      "You rush <b>Thornmail</b>.",
+      "You go full Armor.",
+      "<strong>Hit or miss. Works only if an enemy team is full of physical damage dealers (preferably auto-attackers).</strong>",
+      "<strong>If an enemy team is full of mages/AP damage, play regular tank build instead.</strong>"
+    ],
+    "how to play": [
+      "How is this <b>Thornmail</b> build for Graves different to regular tank builds? Item order, Armor stacking and countering enemy physical damage dealers!",
+      "This build is aimed to counter AD comps. Since you don't know the enemy team, you need to <b>adapt</b> in game. It is hit or miss. If they are heavy AP - just play regular tank.",
+      "Late game, you can consider selling boots for 6th item - for even more sweet <b>Thornmail</b> damage!",
+      "Remember to consume your <b>Grasp of the Undying</b> procs!"
+    ],
+    "how to play champion": [
+      "You get extra spikey by using Quickdraw (<b>E</b>), thanks to increased Armor (it gives double stacks if you <b>E</b> into enemy direction). So do it!"
+    ],
+    "tricks champion": [
+      "You do more damage the closer you are to your target.",
+      "Use auto attack reset (AA + <b>Quickdraw (E)</b> + AA). If you time it properly, you can have two almost instant AA for big burst damage.",
+      "Combo for big damage: AA + <b>Q</b> + <b>E</b> + AA."
+    ],
+    "tricks champion riot": [
+      "Smoke Screen can be used both to escape and to set up a kill.",
+      "Using Quickdraw to get into range and delivering a point blank Buckshot can do lots of damage."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "eqw",
+  "runes": {
+    "major": {
+      "configuration": [
+        "grasp",
+        "demolish",
+        "conditioning",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "triumph",
+        "haste"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "haste",
+        "scaling_hp",
+        "scaling_hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Bramble Vest",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Rush this",
+      "items": [
+        "Thornmail"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Jak'Sho, The Protean",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Kaenic Rookern",
+        "Abyssal Mask",
+        "Spirit Visage",
+        "Hollow Radiance",
+        "Force of Nature"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Randuin's Omen",
+        "Sunfire Aegis",
+        "Iceborn Gauntlet",
+        "Thornmail",
+        "Unending Despair",
+        "Dead Man's Plate",
+        "Frozen Heart"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Titanic Hydra"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Thornmail",
+        "Abyssal Mask",
+        "Sunfire Aegis",
+        "Randuin's Omen",
+        "Dead Man's Plate",
+        "Jak'Sho, The Protean"
+      ]
+    }
+  ]
+}

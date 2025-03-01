@@ -1,0 +1,156 @@
+{
+  "id": "bruiser-hydra",
+  "champion": "Urgot",
+  "sanitizedName": "urgot",
+  "name": "Titanic Hydra",
+  "buildType": "bruiser",
+  "buildCategory": "fun",
+  "difficultyRating": "easy",
+  "info": {
+    "description": "Titanic Hydra Urgot build. You, Urgot, Grasp of the Undying and one very specific item. Hail Hydra!",
+    "how it works": [
+      "You play Bruiser stacking HP, auto attacking and rushing one specific item. You <b>adapt</b> to enemy team, building tanky items.",
+      "You rush <b>Titanic Hydra</b>.",
+      "<b>Titanic Hydra</b> can be your only damage item. Then go <b>full tank</b>.",
+      "Your auto attacks are quite powerful, thanks to <b>Titanic Hydra</b> and <b>Grasp of the Undying</b>. It's your main source of damage + your abilities."
+    ],
+    "how to play": [
+      "This build is focused on a single item - <b>Titanic Hydra</b>.",
+      "How is this build different to other bruisers builds? The main difference is item rush order. You rush <b>Titanic Hydra</b> first, then <b>adapt</b> to the situation!",
+      "If you want to go more damage, Sundered Sky is an excellent damage item for this build. It scales off your HP (so with Grasp, Overgrowth). It gives damage and pretty good sustain in fights. Remember to switch targets to maximize the effect!",
+      "A very effective way of poking enemies is to use <b>Titanic Hydra</b> Active and hit minions in front of them (closer to them, better the effect).",
+      "Another effective way of poking enemies with Titanic, is to hit caster minions in the back.",
+      "Enemy team heavy on AP? Buy MR. They heavy on AD? Buy Armor. You need some damage? Well buy that.",
+      "Remember to consume your <b>Grasp of the Undying</b> procs!"
+    ],
+    "tricks champion": [
+      "<b>R</b> + <b>Flash</b> combo: After you hit <b>Fear Beyond Death (R)</b>, you can <b>R</b> into enemy team for AoE Fear. The crucial aspect of this combo is timing: <b>Flash</b> into an enemy team at the very end of animation, this way they cannot react."
+    ],
+    "tricks champion riot": [
+      "Pay attention to your individual leg's cooldowns, as they make for a signficiant portion of your damage",
+      "Land Corrosive Charge or Disdain to lock on to target's with Purge - a great way to trigger multiple legs in rapid succession.",
+      "Save Fear Beyond Death for opponents you know are already too weak to survive. It's especially good for picking off fleeing foes."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "weq",
+  "runes": {
+    "major": {
+      "configuration": [
+        "grasp",
+        "shield",
+        "second",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "triumph",
+        "alacrity"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "as",
+        "scaling_hp",
+        "scaling_hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Tiamat"
+      ]
+    },
+    {
+      "description": "Rush #1",
+      "items": [
+        "Titanic Hydra"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Mercury's Treads",
+        "Berserker's Greaves",
+        "Plated Steelcaps",
+        "Ionian Boots of Lucidity"
+      ]
+    },
+    {
+      "description": "Good bruiser items",
+      "items": [
+        "Titanic Hydra",
+        "Sundered Sky",
+        "Sterak's Gage",
+        "Wit's End",
+        "Heartsteel",
+        "Blade of The Ruined King"
+      ]
+    },
+    {
+      "description": "Good tanky items",
+      "items": [
+        "Overlord's Bloodmail",
+        "Jak'Sho, The Protean",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Spirit Visage",
+        "Force of Nature",
+        "Kaenic Rookern"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Randuin's Omen",
+        "Thornmail",
+        "Iceborn Gauntlet",
+        "Dead Man's Plate",
+        "Frozen Heart"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Trailblazer",
+        "Knight's Vow"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Mercury's Treads",
+        "Titanic Hydra",
+        "Force of Nature",
+        "Thornmail",
+        "Warmog's Armor",
+        "Spirit Visage"
+      ]
+    }
+  ]
+}

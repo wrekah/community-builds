@@ -1,0 +1,88 @@
+{
+  "name": "Graves",
+  "sanitizedName": "graves",
+  "officialTags": [
+    "Marksman"
+  ],
+  "roles": [
+    "MARKSMAN",
+    "SPECIALIST"
+  ],
+  "resource": "MANA",
+  "attackType": "RANGED",
+  "adaptiveType": "PHYSICAL_DAMAGE",
+  "hasHardCC": false,
+  "hasSlows": false,
+  "hasShielding": false,
+  "hasSelfHeal": false,
+  "hasHealing": false,
+  "hasGapCloser": true,
+  "isGoodUser": [
+    "Imperial Mandate"
+  ],
+  "isSituationalUser": [
+    "Lich Bane",
+    "Essence Reaver"
+  ],
+  "isBadUser": [
+    "Rylai's Crystal Scepter",
+    "On-Hit",
+    "Runaan's Hurricane"
+  ],
+  "orders": {
+    "ad": "qew",
+    "adc": "qew",
+    "ap": "wqe",
+    "bruiser": "qew",
+    "support": "wqe",
+    "tank": "eqw"
+  },
+  "summonerSpells": {
+    "tank": "mark",
+    "bruiser": "mark",
+    "ad": "mark"
+  },
+  "customizations": {
+    "ad": {
+      "isSituationalUser": [
+        "Prowler's Claw"
+      ]
+    },
+    "ad-axiom-arc": {
+      "summonerSpells": "ghost",
+      "how to play": [
+        "Your usual money-making combo is First Strike + E, followed by Q + R with auto attacks if possible.",
+        "Your alternate combo just for poke is First Strike + Q + W + auto attacks if possible."
+      ]
+    },
+    "ap": {
+      "buildCategory": "fun"
+    },
+    "ap-mage-burn": {
+      "how to play": [
+        "This is the burn version of AP Graves.",
+        "Playstyle is to spam Smoke Screen (W) and Collateral Damage (R) off cooldown and apply the burn effects from Liandry's Torment.",
+        "Imperial Mandate will proc from your Smoke Screen (W) even after it dealt initial damage.",
+        "You can also spam End of the Line (Q), but for this you probably need some mana items (Muramana)."
+      ],
+      "credit": "LuckierLion",
+      "summonerSpells": "ignite",
+      "isGoodUser": [
+        "Ionian Boots of Lucidity",
+        "Malignance"
+      ],
+      "minor": {
+        "configuration": [
+          "transcendence",
+          "scorch"
+        ],
+        "tree": "Sorcery"
+      }
+    },
+    "tank-thornmail": {
+      "how to play": [
+        "You get extra spikey by using Quickdraw (E), thanks to increased Armor (it gives double stacks if you E into enemy direction). So do it!"
+      ]
+    }
+  }
+}

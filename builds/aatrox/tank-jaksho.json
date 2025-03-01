@@ -1,0 +1,157 @@
+{
+  "id": "tank-jaksho",
+  "champion": "Aatrox",
+  "sanitizedName": "aatrox",
+  "name": "Tank",
+  "buildType": "tank",
+  "buildCategory": "fun",
+  "info": {
+    "description": "Tank Aatrox ARAM build with Jak'Sho. Get tanky and adapt to enemy team!",
+    "how to play": [
+      "You start with <b>Guardian's Horn</b>. Your #1 rush should be item that counters enemy team most (MR or Armor item). Get <b>Jak'Sho</b> as #2 item. Then <b>adapt</b>.",
+      "<b>Guardian's Horn</b> is a surprisingly good item for its price. You can keep it for very long time (or even have it as 6th item).",
+      "You need to <b>adapt</b> your items to the game. Enemy team heavy on AP? Buy MR. They heavy on AD? Buy Armor. You need some damage? Well buy that.",
+      "Remember to consume your <b>Grasp of the Undying</b> procs!"
+    ],
+    "how to play champion": [
+      "Tank Aatrox is a very different take on regular Aatrox Bruiser build. Instead of focusing on maxing <b>Q</b>, going AD and casting abilities, you are gonna be tanky and mainly auto-attacking, consuming <b>Grasp of the Undying</b> procs and making use of item procs.",
+      "As Tank Aatrox, you go in, soak damage, disrupt fights and do a lot of auto attacking.",
+      "You can optionally max <b>Q</b> first, if an enemy team has a lot of ranged/poke champs and you cannot go toe to toe.",
+      "Your <b>E</b> <b>resets</b> your auto attack!"
+    ],
+    "tricks champion": [
+      "<b>Q</b> + <b>Flash</b> combos: You can use <b>Flash</b> during any time of <b>The Darkin Blade (Q)</b> animations. You can even combine that with <b>Umbral Dash (E)</b>. You can <b>Flash</b> and <b>Umbral Dash (E)</b> in any direction, making very spectacular and flashy plays.",
+      "You can use <b>Umbral Dash (E)</b> for short dash, this way animation lasts shorter, and you can get crucial milliseconds to auto attack faster (can be deciding a factor in 1v1).",
+      "You can reset your auto attack timer with <b>Umbral Dash (E)</b>. It might be crucial in duels, or when pushing enemy turrets."
+    ],
+    "tricks champion riot": [
+      "Use Umbral Dash while casting The Darkin Blade to increase your chances of hitting the enemy.",
+      "Crowd Control abilities like Infernal Chains or your allies' immobilizing effects will help you set up The Darkin Blade.",
+      "Cast World Ender when you are sure you can force a fight."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "eqw",
+  "runes": {
+    "major": {
+      "configuration": [
+        "grasp",
+        "font",
+        "second",
+        "overgrowth"
+      ],
+      "tree": "Resolve"
+    },
+    "minor": {
+      "configuration": [
+        "triumph",
+        "alacrity"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "haste",
+        "scaling_hp",
+        "tenacity_slow_resist"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Guardian's Horn",
+        "Ruby Crystal"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Mercury's Treads",
+        "Ionian Boots of Lucidity",
+        "Plated Steelcaps"
+      ]
+    },
+    {
+      "description": "Good tank items",
+      "items": [
+        "Jak'Sho, The Protean",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "description": "Good MR items",
+      "items": [
+        "Force of Nature",
+        "Abyssal Mask",
+        "Spirit Visage",
+        "Kaenic Rookern",
+        "Hollow Radiance"
+      ]
+    },
+    {
+      "description": "Good Armor items",
+      "items": [
+        "Iceborn Gauntlet",
+        "Sunfire Aegis",
+        "Randuin's Omen",
+        "Thornmail",
+        "Dead Man's Plate",
+        "Unending Despair"
+      ]
+    },
+    {
+      "description": "Situational items",
+      "items": [
+        "Trailblazer",
+        "Knight's Vow"
+      ]
+    },
+    {
+      "description": "Situational DMG items",
+      "tooltip": [
+        "If you need damage, consider below items:",
+        "<b>Titanic Hydra</b> - most universal damage item.",
+        "<b>Overlord's Bloodmail</b> - new item that works nicely with this build.",
+        "<b>Wit's End</b> - situational item vs high AP damage + you need damage and some attack speed.",
+        "<b>Blade of The Ruined King</b> - situational item vs high HP tanks.",
+        "<b>Sterak's Gage</b> - situational item for survivability, if you cannot survive burst."
+      ],
+      "items": [
+        "Sterak's Gage",
+        "Titanic Hydra",
+        "Blade of The Ruined King",
+        "Wit's End",
+        "Overlord's Bloodmail"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Mercury's Treads",
+        "Jak'Sho, The Protean",
+        "Unending Despair",
+        "Spirit Visage",
+        "Thornmail",
+        "Hollow Radiance"
+      ]
+    }
+  ]
+}

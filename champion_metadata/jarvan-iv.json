@@ -1,0 +1,69 @@
+{
+  "name": "Jarvan IV",
+  "sanitizedName": "jarvan-iv",
+  "officialTags": [
+    "Tank",
+    "Fighter"
+  ],
+  "roles": [
+    "TANK",
+    "WARDEN",
+    "FIGHTER"
+  ],
+  "resource": "MANA",
+  "attackType": "MELEE",
+  "adaptiveType": "PHYSICAL_DAMAGE",
+  "hasHardCC": true,
+  "hasSlows": true,
+  "hasShielding": true,
+  "hasSelfHeal": false,
+  "hasHealing": false,
+  "isGoodUser": [
+    "Fimbulwinter"
+  ],
+  "isSituationalUser": [
+    "Lich Bane",
+    "Statikk Shiv"
+  ],
+  "isBadUser": [
+    "after"
+  ],
+  "hasGapCloser": true,
+  "orders": {
+    "ad": "qew",
+    "adc": "qew",
+    "ap": "eqw",
+    "bruiser": "qew",
+    "support": "eqw",
+    "tank": "qew"
+  },
+  "customizations": {
+    "ap-mage-poke": {
+      "description": "Jarvan the Impaler. AP build that is focused on throwing big flags.",
+      "buildCategory": "off-meta",
+      "summonerSpells": "ignite",
+      "how to play": [
+        "Your xE is a main source of damage.",
+        "You can cast xE facing another direction - so you can trick enemies into feeling safe, but you still hit them.",
+        "You play as squishy mage. Play safe and from afar.",
+        "You can go in with E + Q and use CC, but be careful. You are squishy.",
+        "You can engage with xR and escape with xE+xQ, trapping an enemy team."
+      ]
+    },
+    "support": {
+      "how it works": [
+        "Your xE triggers Summon Aery shields!",
+        "You can help your team kill tanky champions by using Dragon Strike (Q) on them. It reduces target's armor!"
+      ],
+      "how to play": [
+        "You can have 100% uptime on E (with some Ability Haste), meaning you will be shielding/healing/buffing your team all the time.",
+        "Cast E near your team if you want shield/heal/buff them.",
+        "E gives vision, so you can scout bushes.",
+        "Play safe, like support for the most part and stay back. Look for opportunities to catch/engage enemies, but be careful, because you are squishy with this build.",
+        "Cool combo is R enemies + Flash or R enemies + E + Q away.",
+        "You can play Aery ping pong to maximize uptime. Just come close to whoever got it, to get it back. This way you will maximize the number of shields.",
+        "If you want to shield a specific person, just cast E closest to them."
+      ]
+    }
+  }
+}

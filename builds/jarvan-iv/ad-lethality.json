@@ -1,0 +1,189 @@
+{
+  "id": "ad-lethality",
+  "champion": "Jarvan IV",
+  "sanitizedName": "jarvan-iv",
+  "name": "Lethality",
+  "buildType": "ad",
+  "buildCategory": "meta",
+  "difficultyRating": "medium",
+  "info": {
+    "description": "Jarvan IV Lethality build for ARAM with tons of AD and Lethality.",
+    "how to play": [
+      "You build <b>Lethality</b> and wait for a moment to strike enemy squishes.",
+      "<b>Snowball</b> / <b>Mark</b> is a crucial cooldown for playing this build. Do not waste it or even wait to hit the enemy at point-blank range to ensure hit (so you follow them, if they <b>Flash</b>).",
+      "If an enemy team is full of tanks or bruisers, rush <b>Serylda's Grudge</b> or even <b>Lord Dominik's Regards</b> early (sometimes even #2). <b>Black Cleaver</b> is also an alternative. The key is to <b>adapt</b> to the enemy team."
+    ],
+    "tricks champion": [
+      "You can use <b>Demacian Standard (E)</b> for brush control.",
+      "Remember that <b>Dragon Strike (Q)</b> reduces target's armor!",
+      "Switch targets often in fights to fully use your <b>Martial Cadence (Passive)</b> for more damage!",
+      "Combo #1: <b>Q</b> + <b>E</b> + <b>Flash</b>. Just <b>Q</b> + <b>E</b> and during the last frames of animation, you can <b>Flash</b> into enemy knocking them up.",
+      "Combo #2: If you have enough Ability Haste, you can put <b>E</b>, wait and <b>Q</b> to it and cast second <b>E</b> hitting your target. This is especially cool with AP builds. So you can cast <b>E</b> while sliding to existing <b>E</b>."
+    ],
+    "tricks champion riot": [
+      "You can use the Dragon Strike / Demacian Standard combo to get out of your own Cataclysm arenas.",
+      "Split your basic attacks on different champions at the beginning of fights to maximize damage.",
+      "Use Demacian Standard as a scouting tool when worried about incoming enemies."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "qew",
+  "runes": {
+    "major": {
+      "configuration": [
+        "dark",
+        "sudden",
+        "grisly",
+        "ultimate"
+      ],
+      "tree": "Domination"
+    },
+    "minor": {
+      "configuration": [
+        "presence",
+        "cut"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "adaptive",
+        "adaptive",
+        "scaling_hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "id": "starting-mana-items",
+      "items": [
+        "Long Sword",
+        "Tear of the Goddess",
+        "Long Sword"
+      ]
+    },
+    {
+      "description": "Rush this",
+      "id": "rush",
+      "items": [
+        "The Collector"
+      ]
+    },
+    {
+      "description": "Boots",
+      "id": "boots-items",
+      "items": [
+        "Plated Steelcaps",
+        "Mercury's Treads",
+        "Ionian Boots of Lucidity"
+      ]
+    },
+    {
+      "description": "Good items",
+      "id": "good-items",
+      "items": [
+        "The Collector",
+        "Profane Hydra",
+        "Youmuu's Ghostblade",
+        "Opportunity",
+        "Voltaic Cyclosword",
+        "Serylda's Grudge"
+      ]
+    },
+    {
+      "description": "OK items",
+      "id": "ok-items",
+      "items": [
+        "Edge of Night",
+        "Axiom Arc",
+        "Umbral Glaive"
+      ]
+    },
+    {
+      "description": "For mana problems",
+      "id": "mana-items",
+      "items": [
+        "Tear of the Goddess",
+        "Muramana"
+      ]
+    },
+    {
+      "description": "Counter items",
+      "id": "counter-items",
+      "tooltip": [
+        "These items can help u counter enemies in certain situations:",
+        "<b>Serpent's Fang</b> - against champions with Shields.",
+        "<b>Mercurial Scimitar</b> - against champions with heavy CC and/or Suppress and/or Mordekaiser Ult.",
+        "<b>Chempunk Chainsword</b> - against champions with Healing (late game).",
+        "<b>Executioner's Calling</b> - against champions with Healing (early game)."
+      ],
+      "items": [
+        "Executioner's Calling",
+        "Mercurial Scimitar",
+        "Serpent's Fang",
+        "Chempunk Chainsword"
+      ]
+    },
+    {
+      "description": "Anti tank items",
+      "id": "anti-tank-items",
+      "tooltip": [
+        "These items can help you counter tanks in certain situations:",
+        "<b>Lord Dominik's Regards</b> - against high Armor + high HP enemies.",
+        "<b>Blade of The Ruined King</b> - against very high HP enemies.",
+        "<b>Black Cleaver</b> - against high Armor enemies."
+      ],
+      "items": [
+        "Black Cleaver",
+        "Blade of The Ruined King",
+        "Lord Dominik's Regards"
+      ]
+    },
+    {
+      "description": "Good defensive items",
+      "id": "defensive-items",
+      "items": [
+        "Maw of Malmortius",
+        "Death's Dance"
+      ]
+    },
+    {
+      "description": "Anti poke items",
+      "id": "defensive-items",
+      "items": [
+        "Kaenic Rookern",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "id": "last-fight-items",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "id": "final-items",
+      "items": [
+        "Ionian Boots of Lucidity",
+        "The Collector",
+        "Serylda's Grudge",
+        "Hubris",
+        "Muramana",
+        "Profane Hydra"
+      ]
+    }
+  ]
+}

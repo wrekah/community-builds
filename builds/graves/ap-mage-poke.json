@@ -1,32 +1,22 @@
 {
-  "id": "ap-mage-burn",
+  "id": "ap-mage-poke",
   "champion": "Graves",
   "sanitizedName": "graves",
-  "name": "AP Burn",
+  "name": "AP",
   "buildType": "ap",
   "buildCategory": "fun",
   "info": {
-    "description": "Liandry's Graves AP build. Everything will burn. With DOTs.",
+    "description": "Full AP Graves build for ARAM. With Luden's Companion and tons of AP.",
     "how it works": [
-      "You play as Mage building Burn items.",
-      "You rush <b>Liandry's Torment</b>.",
-      "You burn your enemies. With DOTs. And debuffs."
+      "You play poke oriented Mage.",
+      "You rush Luden's Companion.",
+      "You build AP items, going full damage."
     ],
     "how to play": [
-      "Playing AP Burn Graves build, your default rush is <b>Liandry's Torment</b> vs. HP, Blackfire Torch vs. squishes. Then get the other item",
+      "Playing AP Graves build, your default rush is Luden's Companion. In cases, when an enemy team is full of tanks and HP stackers, go <b>Liandry's Torment</b>.",
       "Adapt to an enemy team. Are they full of tanks, and they rush tons of Magic Resist? You rush <b>Void Staff</b> as #2 or #3 item to counter MR stacking. Their team has champs with lots of healing? Rush <b>Oblivion Orb</b> as #2 item (upgrade to <b>Morellonomicon</b> as 4th or 5th item).",
-      "Items like <b>Morellonomicon</b> or Oblivon Orb are extra effective with this build, thanks to damage over time effects from <b>Liandry's Torment</b>.",
-      "An enemy team has an extremely strong shielding? You can get <b>Serpent's Fang</b> to counter it. It works with your DoTs, meaning shield reduction lasts longer.",
-      "Somebody is going after you each fight? Always getting ulted by enemy assassins? Rush <b>Zhonya's Hourglass</b>.",
-      "If you are doing well, are ahead and want to have some fun, you can buy <b>The Collector</b> item. It works off your damage over time effects! "
+      "Somebody is going after you each fight? Always getting ulted by enemy assassins? Rush <b>Zhonya's Hourglass</b>."
     ],
-    "how to play champion": [
-      "This is the burn version of AP Graves.",
-      "Playstyle is to spam Smoke Screen (<b>W</b>) and Collateral Damage (<b>R</b>) off cooldown and apply the burn effects from <b>Liandry's Torment</b>.",
-      "<b>Imperial Mandate</b> will proc from your Smoke Screen (<b>W</b>) even after it dealt initial damage.",
-      "You can also spam End of the Line (<b>Q</b>), but for this you probably need some mana items (<b>Muramana</b>)."
-    ],
-    "credit": "LuckierLion",
     "tricks champion": [
       "You do more damage the closer you are to your target.",
       "Use auto attack reset (AA + <b>Quickdraw (E)</b> + AA). If you time it properly, you can have two almost instant AA for big burst damage.",
@@ -38,7 +28,7 @@
     ]
   },
   "summonerSpells": [
-    "ignite",
+    "ghost",
     "flash"
   ],
   "quickSkillOrder": "wqe",
@@ -54,10 +44,10 @@
     },
     "minor": {
       "configuration": [
-        "transcendence",
-        "scorch"
+        "presence",
+        "cut"
       ],
-      "tree": "Sorcery"
+      "tree": "Precision"
     },
     "passive": {
       "configuration": [
@@ -72,12 +62,17 @@
     {
       "description": "Starting items",
       "items": [
-        "Tear of the Goddess",
-        "Fated Ashes"
+        "Lost Chapter"
       ]
     },
     {
       "description": "Rush this",
+      "items": [
+        "Luden's Companion"
+      ]
+    },
+    {
+      "description": "Rush this vs. tanks",
       "items": [
         "Liandry's Torment"
       ]
@@ -92,30 +87,27 @@
     {
       "description": "For mana problems",
       "items": [
+        "Seraph's Embrace",
         "Rod of Ages",
-        "Tear of the Goddess",
-        "Seraph's Embrace"
+        "Tear of the Goddess"
       ]
     },
     {
       "description": "Good items",
       "items": [
-        "Malignance",
-        "Horizon Focus",
         "Blackfire Torch",
+        "Horizon Focus",
         "Rabadon's Deathcap",
-        "Riftmaker",
-        "Shadowflame",
-        "Imperial Mandate"
+        "Shadowflame"
       ]
     },
     {
       "description": "Situational items",
       "items": [
-        "Zhonya's Hourglass",
         "Morellonomicon",
-        "Lich Bane",
-        "Banshee's Veil"
+        "Zhonya's Hourglass",
+        "Banshee's Veil",
+        "Imperial Mandate"
       ]
     },
     {
@@ -133,22 +125,16 @@
       ]
     },
     {
+      "description": "Counter high HP",
+      "items": [
+        "Liandry's Torment"
+      ]
+    },
+    {
       "description": "Counter healing",
       "items": [
         "Oblivion Orb",
         "Morellonomicon"
-      ]
-    },
-    {
-      "description": "Counter shields",
-      "items": [
-        "Serpent's Fang"
-      ]
-    },
-    {
-      "description": "Fun item that works with DoTs",
-      "items": [
-        "The Collector"
       ]
     },
     {
@@ -160,20 +146,20 @@
         "<b>Seeker's Armguard</b> - one time use that can win a fight."
       ],
       "items": [
+        "Elixir of Iron",
         "Seeker's Armguard",
-        "Elixir of Sorcery",
-        "Elixir of Iron"
+        "Elixir of Sorcery"
       ]
     },
     {
       "description": "Example final build",
       "items": [
-        "Ionian Boots of Lucidity",
-        "Liandry's Torment",
-        "Blackfire Torch",
-        "Void Staff",
-        "Malignance",
-        "Shadowflame"
+        "Sorcerer's Shoes",
+        "Horizon Focus",
+        "Luden's Companion",
+        "Rabadon's Deathcap",
+        "Shadowflame",
+        "Void Staff"
       ]
     }
   ]

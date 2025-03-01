@@ -1,0 +1,185 @@
+{
+  "id": "ad-lethality",
+  "champion": "Graves",
+  "sanitizedName": "graves",
+  "name": "Lethality",
+  "buildType": "ad",
+  "buildCategory": "off-meta",
+  "difficultyRating": "easy",
+  "info": {
+    "description": "Graves Lethality build for ARAM with tons of AD and Lethality.",
+    "how to play": [
+      "You build <b>Lethality</b> and play like AD caster.",
+      "If an enemy team is full of tanks or bruisers, rush <b>Serylda's Grudge</b> or even <b>Lord Dominik's Regards</b> early (sometimes even #2). <b>Black Cleaver</b> is also an alternative. The key is to <b>adapt</b> to the enemy team."
+    ],
+    "tricks champion": [
+      "You do more damage the closer you are to your target.",
+      "Use auto attack reset (AA + <b>Quickdraw (E)</b> + AA). If you time it properly, you can have two almost instant AA for big burst damage.",
+      "Combo for big damage: AA + <b>Q</b> + <b>E</b> + AA."
+    ],
+    "tricks champion riot": [
+      "Smoke Screen can be used both to escape and to set up a kill.",
+      "Using Quickdraw to get into range and delivering a point blank Buckshot can do lots of damage."
+    ]
+  },
+  "summonerSpells": [
+    "mark",
+    "flash"
+  ],
+  "quickSkillOrder": "qew",
+  "runes": {
+    "major": {
+      "configuration": [
+        "dark",
+        "sudden",
+        "grisly",
+        "ultimate"
+      ],
+      "tree": "Domination"
+    },
+    "minor": {
+      "configuration": [
+        "presence",
+        "cut"
+      ],
+      "tree": "Precision"
+    },
+    "passive": {
+      "configuration": [
+        "adaptive",
+        "adaptive",
+        "scaling_hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "id": "starting-mana-items",
+      "items": [
+        "Long Sword",
+        "Tear of the Goddess",
+        "Long Sword"
+      ]
+    },
+    {
+      "description": "Rush this",
+      "id": "rush",
+      "items": [
+        "The Collector"
+      ]
+    },
+    {
+      "description": "Boots",
+      "id": "boots-items",
+      "items": [
+        "Mercury's Treads",
+        "Berserker's Greaves",
+        "Plated Steelcaps",
+        "Ionian Boots of Lucidity"
+      ]
+    },
+    {
+      "description": "Good items",
+      "id": "good-items",
+      "items": [
+        "The Collector",
+        "Voltaic Cyclosword",
+        "Youmuu's Ghostblade",
+        "Opportunity",
+        "Serylda's Grudge"
+      ]
+    },
+    {
+      "description": "OK items",
+      "id": "ok-items",
+      "items": [
+        "Umbral Glaive",
+        "Axiom Arc",
+        "Edge of Night"
+      ]
+    },
+    {
+      "description": "For mana problems",
+      "id": "mana-items",
+      "items": [
+        "Tear of the Goddess",
+        "Muramana"
+      ]
+    },
+    {
+      "description": "Counter items",
+      "id": "counter-items",
+      "tooltip": [
+        "These items can help u counter enemies in certain situations:",
+        "<b>Serpent's Fang</b> - against champions with Shields.",
+        "<b>Mercurial Scimitar</b> - against champions with heavy CC and/or Suppress and/or Mordekaiser Ult.",
+        "<b>Chempunk Chainsword</b> - against champions with Healing (late game).",
+        "<b>Executioner's Calling</b> - against champions with Healing (early game)."
+      ],
+      "items": [
+        "Mercurial Scimitar",
+        "Serpent's Fang",
+        "Chempunk Chainsword",
+        "Executioner's Calling"
+      ]
+    },
+    {
+      "description": "Anti tank items",
+      "id": "anti-tank-items",
+      "tooltip": [
+        "These items can help you counter tanks in certain situations:",
+        "<b>Lord Dominik's Regards</b> - against high Armor + high HP enemies.",
+        "<b>Blade of The Ruined King</b> - against very high HP enemies.",
+        "<b>Black Cleaver</b> - against high Armor enemies."
+      ],
+      "items": [
+        "Blade of The Ruined King",
+        "Lord Dominik's Regards",
+        "Black Cleaver"
+      ]
+    },
+    {
+      "description": "Good defensive items",
+      "id": "defensive-items",
+      "items": [
+        "Maw of Malmortius",
+        "Death's Dance"
+      ]
+    },
+    {
+      "description": "Anti poke items",
+      "id": "defensive-items",
+      "items": [
+        "Kaenic Rookern",
+        "Warmog's Armor"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "id": "last-fight-items",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "id": "final-items",
+      "items": [
+        "Ionian Boots of Lucidity",
+        "The Collector",
+        "Muramana",
+        "Hubris",
+        "Serylda's Grudge",
+        "Opportunity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "adc-crit",
+  "champion": "Graves",
+  "sanitizedName": "graves",
+  "name": "ADC",
+  "buildType": "adc",
+  "buildCategory": "meta",
+  "fantasy": "100% Crit",
+  "info": {
+    "description": "ADC Crit Graves build with Press the Attack for ARAM. Infinity Edge included.",
+    "how it works": [
+      "You build <b>100% crit</b>, lots of AD and some attack speed.",
+      "You play as carry for your team"
+    ],
+    "how to play": [
+      "Graves ADC build with <b>100% crit</b>. You go AD, Attack Speed and of course... Crit!",
+      "Usually good rush item is <b>The Collector</b>.",
+      "Don't rush <b>Infinity Edge</b>. Usually go for it as #2 or #3 item.",
+      "Counter enemy team. If they have lots of tanks or start stacking Armor, rush <b>Lord Dominik's Regards</b>."
+    ],
+    "tricks champion": [
+      "You do more damage the closer you are to your target.",
+      "Use auto attack reset (AA + <b>Quickdraw (E)</b> + AA). If you time it properly, you can have two almost instant AA for big burst damage.",
+      "Combo for big damage: AA + <b>Q</b> + <b>E</b> + AA."
+    ],
+    "tricks champion riot": [
+      "Smoke Screen can be used both to escape and to set up a kill.",
+      "Using Quickdraw to get into range and delivering a point blank Buckshot can do lots of damage."
+    ]
+  },
+  "summonerSpells": [
+    "ghost",
+    "flash"
+  ],
+  "quickSkillOrder": "qew",
+  "runes": {
+    "major": {
+      "configuration": [
+        "lethal",
+        "presence",
+        "alacrity",
+        "cut"
+      ],
+      "tree": "Precision"
+    },
+    "minor": {
+      "configuration": [
+        "sudden",
+        "treasure"
+      ],
+      "tree": "Domination"
+    },
+    "passive": {
+      "configuration": [
+        "as",
+        "adaptive",
+        "scaling_hp"
+      ],
+      "tree": "Passive"
+    }
+  },
+  "itemSets": [
+    {
+      "description": "Starting items",
+      "items": [
+        "Pickaxe",
+        "Long Sword"
+      ]
+    },
+    {
+      "description": "Good AD items",
+      "items": [
+        "The Collector",
+        "Bloodthirster"
+      ]
+    },
+    {
+      "description": "Get this as #2 or #3 item",
+      "items": [
+        "Infinity Edge"
+      ]
+    },
+    {
+      "description": "Boots",
+      "items": [
+        "Berserker's Greaves"
+      ]
+    },
+    {
+      "description": "For mana problems",
+      "items": [
+        "Essence Reaver"
+      ]
+    },
+    {
+      "description": "Good AS items",
+      "items": [
+        "Rapid Firecannon",
+        "Runaan's Hurricane",
+        "Phantom Dancer"
+      ]
+    },
+    {
+      "description": "Defensive items",
+      "items": [
+        "Immortal Shieldbow",
+        "Maw of Malmortius",
+        "Wit's End",
+        "Mercurial Scimitar"
+      ]
+    },
+    {
+      "description": "Counter tanks",
+      "items": [
+        "Lord Dominik's Regards"
+      ]
+    },
+    {
+      "description": "Counter healing",
+      "items": [
+        "Executioner's Calling",
+        "Mortal Reminder"
+      ]
+    },
+    {
+      "description": "Counter shielding",
+      "items": [
+        "Serpent's Fang"
+      ]
+    },
+    {
+      "description": "For the last fight",
+      "tooltip": [
+        "If you feel like it's going to be <b>last fight</b>:",
+        "<b>Elixir of Iron</b> - for more survivability and vs CC.",
+        "<b>Elixir of Wrath</b> - more damage."
+      ],
+      "items": [
+        "Elixir of Iron",
+        "Elixir of Wrath"
+      ]
+    },
+    {
+      "description": "Example final build",
+      "items": [
+        "Berserker's Greaves",
+        "Infinity Edge",
+        "Bloodthirster",
+        "Lord Dominik's Regards",
+        "The Collector",
+        "Rapid Firecannon"
+      ]
+    }
+  ]
+}
